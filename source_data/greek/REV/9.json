@@ -1,0 +1,5084 @@
+{
+  "source": "OpenGNT_version3_3.csv",
+  "sourceSha256": "d2853da46d1f3942c5155a7017b4f8c90906c7ba34c2373f5f4e1e39d7fea721",
+  "book": "Revelation",
+  "bookCode": "REV",
+  "chapter": 9,
+  "verses": [
+    {
+      "verse": 1,
+      "tokens": [
+        {
+          "id": "REV.9.1.1",
+          "greek": "Καὶ",
+          "lemma": "καί",
+          "transliteration": "Kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.1.2",
+          "greek": "ὁ",
+          "lemma": "ὁ",
+          "transliteration": "ho",
+          "strongs": "G3588",
+          "morphologyCode": "T-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.1.3",
+          "greek": "πέμπτος",
+          "lemma": "πέμπτος",
+          "transliteration": "pemptos",
+          "strongs": "G3991",
+          "morphologyCode": "A-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.1.4",
+          "greek": "ἄγγελος",
+          "lemma": "ἄγγελος",
+          "transliteration": "angelos",
+          "strongs": "G32",
+          "morphologyCode": "N-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.1.5",
+          "greek": "ἐσάλπισεν",
+          "lemma": "σαλπίζω",
+          "transliteration": "esalpisen",
+          "strongs": "G4537",
+          "morphologyCode": "V-AAI-3S",
+          "punctuationBefore": "",
+          "punctuationAfter": "·"
+        },
+        {
+          "id": "REV.9.1.6",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.1.7",
+          "greek": "εἶδον",
+          "lemma": "εἴδω",
+          "transliteration": "eidon",
+          "strongs": "G1492",
+          "morphologyCode": "V-2AAI-1S",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.1.8",
+          "greek": "ἀστέρα",
+          "lemma": "ἀστήρ",
+          "transliteration": "astera",
+          "strongs": "G792",
+          "morphologyCode": "N-ASM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.1.9",
+          "greek": "ἐκ",
+          "lemma": "ἐκ",
+          "transliteration": "ek",
+          "strongs": "G1537",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.1.10",
+          "greek": "τοῦ",
+          "lemma": "ὁ",
+          "transliteration": "tou",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.1.11",
+          "greek": "οὐρανοῦ",
+          "lemma": "οὐρανός",
+          "transliteration": "ouranou",
+          "strongs": "G3772",
+          "morphologyCode": "N-GSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.1.12",
+          "greek": "πεπτωκότα",
+          "lemma": "πίπτω",
+          "transliteration": "peptōkota",
+          "strongs": "G4098",
+          "morphologyCode": "V-RAP-ASM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.1.13",
+          "greek": "εἰς",
+          "lemma": "εἰς",
+          "transliteration": "eis",
+          "strongs": "G1519",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.1.14",
+          "greek": "τὴν",
+          "lemma": "ὁ",
+          "transliteration": "tēn",
+          "strongs": "G3588",
+          "morphologyCode": "T-ASF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.1.15",
+          "greek": "γῆν",
+          "lemma": "γῆ",
+          "transliteration": "gēn",
+          "strongs": "G1093",
+          "morphologyCode": "N-ASF",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.1.16",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.1.17",
+          "greek": "ἐδόθη",
+          "lemma": "δίδωμι",
+          "transliteration": "edothē",
+          "strongs": "G1325",
+          "morphologyCode": "V-API-3S",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.1.18",
+          "greek": "αὐτῷ",
+          "lemma": "αὐτός",
+          "transliteration": "autō",
+          "strongs": "G846",
+          "morphologyCode": "P-DSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.1.19",
+          "greek": "ἡ",
+          "lemma": "ὁ",
+          "transliteration": "hē",
+          "strongs": "G3588",
+          "morphologyCode": "T-NSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.1.20",
+          "greek": "κλεὶς",
+          "lemma": "κλείς",
+          "transliteration": "kleis",
+          "strongs": "G2807",
+          "morphologyCode": "N-NSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.1.21",
+          "greek": "τοῦ",
+          "lemma": "ὁ",
+          "transliteration": "tou",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.1.22",
+          "greek": "φρέατος",
+          "lemma": "φρέαρ",
+          "transliteration": "phreatos",
+          "strongs": "G5421",
+          "morphologyCode": "N-GSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.1.23",
+          "greek": "τῆς",
+          "lemma": "ὁ",
+          "transliteration": "tēs",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.1.24",
+          "greek": "ἀβύσσου",
+          "lemma": "ἄβυσσος",
+          "transliteration": "abyssou",
+          "strongs": "G12",
+          "morphologyCode": "N-GSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        }
+      ]
+    },
+    {
+      "verse": 2,
+      "tokens": [
+        {
+          "id": "REV.9.2.1",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.2",
+          "greek": "ἤνοιξεν",
+          "lemma": "ἀνοίγω",
+          "transliteration": "ēnoixen",
+          "strongs": "G455",
+          "morphologyCode": "V-2AAI-3S",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.3",
+          "greek": "τὸ",
+          "lemma": "ὁ",
+          "transliteration": "to",
+          "strongs": "G3588",
+          "morphologyCode": "T-ASN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.4",
+          "greek": "φρέαρ",
+          "lemma": "φρέαρ",
+          "transliteration": "phrear",
+          "strongs": "G5421",
+          "morphologyCode": "N-ASN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.5",
+          "greek": "τῆς",
+          "lemma": "ὁ",
+          "transliteration": "tēs",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.6",
+          "greek": "ἀβύσσου",
+          "lemma": "ἄβυσσος",
+          "transliteration": "abyssou",
+          "strongs": "G12",
+          "morphologyCode": "N-GSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.2.7",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.8",
+          "greek": "ἀνέβη",
+          "lemma": "ἀναβαίνω",
+          "transliteration": "anebē",
+          "strongs": "G305",
+          "morphologyCode": "V-2AAI-3S",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.9",
+          "greek": "καπνὸς",
+          "lemma": "καπνός",
+          "transliteration": "kapnos",
+          "strongs": "G2586",
+          "morphologyCode": "N-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.10",
+          "greek": "ἐκ",
+          "lemma": "ἐκ",
+          "transliteration": "ek",
+          "strongs": "G1537",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.11",
+          "greek": "τοῦ",
+          "lemma": "ὁ",
+          "transliteration": "tou",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.12",
+          "greek": "φρέατος",
+          "lemma": "φρέαρ",
+          "transliteration": "phreatos",
+          "strongs": "G5421",
+          "morphologyCode": "N-GSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.13",
+          "greek": "ὡς",
+          "lemma": "ὡς",
+          "transliteration": "hōs",
+          "strongs": "G5613",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.14",
+          "greek": "καπνὸς",
+          "lemma": "καπνός",
+          "transliteration": "kapnos",
+          "strongs": "G2586",
+          "morphologyCode": "N-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.15",
+          "greek": "καμίνου",
+          "lemma": "κάμινος",
+          "transliteration": "kaminou",
+          "strongs": "G2575",
+          "morphologyCode": "N-GSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.16",
+          "greek": "μεγάλης",
+          "lemma": "μέγας",
+          "transliteration": "megalēs",
+          "strongs": "G3173",
+          "morphologyCode": "A-GSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.2.17",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.18",
+          "greek": "ἐσκοτώθη",
+          "lemma": "σκοτόω",
+          "transliteration": "eskotōthē",
+          "strongs": "G4656",
+          "morphologyCode": "V-API-3S",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.19",
+          "greek": "ὁ",
+          "lemma": "ὁ",
+          "transliteration": "ho",
+          "strongs": "G3588",
+          "morphologyCode": "T-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.20",
+          "greek": "ἥλιος",
+          "lemma": "ἥλιος",
+          "transliteration": "hēlios",
+          "strongs": "G2246",
+          "morphologyCode": "N-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.21",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.22",
+          "greek": "ὁ",
+          "lemma": "ὁ",
+          "transliteration": "ho",
+          "strongs": "G3588",
+          "morphologyCode": "T-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.23",
+          "greek": "ἀὴρ",
+          "lemma": "ἀήρ",
+          "transliteration": "aēr",
+          "strongs": "G109",
+          "morphologyCode": "N-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.24",
+          "greek": "ἐκ",
+          "lemma": "ἐκ",
+          "transliteration": "ek",
+          "strongs": "G1537",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.25",
+          "greek": "τοῦ",
+          "lemma": "ὁ",
+          "transliteration": "tou",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.26",
+          "greek": "καπνοῦ",
+          "lemma": "καπνός",
+          "transliteration": "kapnou",
+          "strongs": "G2586",
+          "morphologyCode": "N-GSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.27",
+          "greek": "τοῦ",
+          "lemma": "ὁ",
+          "transliteration": "tou",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.2.28",
+          "greek": "φρέατος",
+          "lemma": "φρέαρ",
+          "transliteration": "phreatos",
+          "strongs": "G5421",
+          "morphologyCode": "N-GSN",
+          "punctuationBefore": "",
+          "punctuationAfter": "."
+        }
+      ]
+    },
+    {
+      "verse": 3,
+      "tokens": [
+        {
+          "id": "REV.9.3.1",
+          "greek": "Καὶ",
+          "lemma": "καί",
+          "transliteration": "Kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.3.2",
+          "greek": "ἐκ",
+          "lemma": "ἐκ",
+          "transliteration": "ek",
+          "strongs": "G1537",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.3.3",
+          "greek": "τοῦ",
+          "lemma": "ὁ",
+          "transliteration": "tou",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.3.4",
+          "greek": "καπνοῦ",
+          "lemma": "καπνός",
+          "transliteration": "kapnou",
+          "strongs": "G2586",
+          "morphologyCode": "N-GSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.3.5",
+          "greek": "ἐξῆλθον",
+          "lemma": "ἐξέρχομαι",
+          "transliteration": "exēlthon",
+          "strongs": "G1831",
+          "morphologyCode": "V-2AAI-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.3.6",
+          "greek": "ἀκρίδες",
+          "lemma": "ἀκρίς",
+          "transliteration": "akrides",
+          "strongs": "G200",
+          "morphologyCode": "N-NPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.3.7",
+          "greek": "εἰς",
+          "lemma": "εἰς",
+          "transliteration": "eis",
+          "strongs": "G1519",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.3.8",
+          "greek": "τὴν",
+          "lemma": "ὁ",
+          "transliteration": "tēn",
+          "strongs": "G3588",
+          "morphologyCode": "T-ASF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.3.9",
+          "greek": "γῆν",
+          "lemma": "γῆ",
+          "transliteration": "gēn",
+          "strongs": "G1093",
+          "morphologyCode": "N-ASF",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.3.10",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.3.11",
+          "greek": "ἐδόθη",
+          "lemma": "δίδωμι",
+          "transliteration": "edothē",
+          "strongs": "G1325",
+          "morphologyCode": "V-API-3S",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.3.12",
+          "greek": "αὐταῖς",
+          "lemma": "αὐτός",
+          "transliteration": "autais",
+          "strongs": "G846",
+          "morphologyCode": "P-DPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.3.13",
+          "greek": "ἐξουσία",
+          "lemma": "ἐξουσία",
+          "transliteration": "exousia",
+          "strongs": "G1849",
+          "morphologyCode": "N-NSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.3.14",
+          "greek": "ὡς",
+          "lemma": "ὡς",
+          "transliteration": "hōs",
+          "strongs": "G5613",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.3.15",
+          "greek": "ἔχουσιν",
+          "lemma": "ἔχω",
+          "transliteration": "echousin",
+          "strongs": "G2192",
+          "morphologyCode": "V-PAI-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.3.16",
+          "greek": "ἐξουσίαν",
+          "lemma": "ἐξουσία",
+          "transliteration": "exousian",
+          "strongs": "G1849",
+          "morphologyCode": "N-ASF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.3.17",
+          "greek": "οἱ",
+          "lemma": "ὁ",
+          "transliteration": "hoi",
+          "strongs": "G3588",
+          "morphologyCode": "T-NPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.3.18",
+          "greek": "σκορπίοι",
+          "lemma": "σκορπίος",
+          "transliteration": "skorpioi",
+          "strongs": "G4651",
+          "morphologyCode": "N-NPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.3.19",
+          "greek": "τῆς",
+          "lemma": "ὁ",
+          "transliteration": "tēs",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.3.20",
+          "greek": "γῆς",
+          "lemma": "γῆ",
+          "transliteration": "gēs",
+          "strongs": "G1093",
+          "morphologyCode": "N-GSF",
+          "punctuationBefore": "",
+          "punctuationAfter": "."
+        }
+      ]
+    },
+    {
+      "verse": 4,
+      "tokens": [
+        {
+          "id": "REV.9.4.1",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.2",
+          "greek": "ἐρρέθη",
+          "lemma": "ἔπω, ἐρῶ, εἶπον",
+          "transliteration": "errethē",
+          "strongs": "G2036",
+          "morphologyCode": "V-API-3S",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.3",
+          "greek": "αὐταῖς",
+          "lemma": "αὐτός",
+          "transliteration": "autais",
+          "strongs": "G846",
+          "morphologyCode": "P-DPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.4",
+          "greek": "ἵνα",
+          "lemma": "ἵνα",
+          "transliteration": "hina",
+          "strongs": "G2443",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.5",
+          "greek": "μὴ",
+          "lemma": "μή",
+          "transliteration": "mē",
+          "strongs": "G3361",
+          "morphologyCode": "PRT-N",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.6",
+          "greek": "ἀδικήσουσιν",
+          "lemma": "ἀδικέω",
+          "transliteration": "adikēsousin",
+          "strongs": "G91",
+          "morphologyCode": "V-FAI-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.7",
+          "greek": "τὸν",
+          "lemma": "ὁ",
+          "transliteration": "ton",
+          "strongs": "G3588",
+          "morphologyCode": "T-ASM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.8",
+          "greek": "χόρτον",
+          "lemma": "χόρτος",
+          "transliteration": "chorton",
+          "strongs": "G5528",
+          "morphologyCode": "N-ASM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.9",
+          "greek": "τῆς",
+          "lemma": "ὁ",
+          "transliteration": "tēs",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.10",
+          "greek": "γῆς",
+          "lemma": "γῆ",
+          "transliteration": "gēs",
+          "strongs": "G1093",
+          "morphologyCode": "N-GSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.11",
+          "greek": "οὐδὲ",
+          "lemma": "οὐδέ",
+          "transliteration": "oude",
+          "strongs": "G3761",
+          "morphologyCode": "CONJ-N",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.12",
+          "greek": "πᾶν",
+          "lemma": "πᾶς",
+          "transliteration": "pan",
+          "strongs": "G3956",
+          "morphologyCode": "A-ASN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.13",
+          "greek": "χλωρὸν",
+          "lemma": "χλωρός",
+          "transliteration": "chlōron",
+          "strongs": "G5515",
+          "morphologyCode": "A-ASN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.14",
+          "greek": "οὐδὲ",
+          "lemma": "οὐδέ",
+          "transliteration": "oude",
+          "strongs": "G3761",
+          "morphologyCode": "CONJ-N",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.15",
+          "greek": "πᾶν",
+          "lemma": "πᾶς",
+          "transliteration": "pan",
+          "strongs": "G3956",
+          "morphologyCode": "A-ASN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.16",
+          "greek": "δένδρον",
+          "lemma": "δένδρον",
+          "transliteration": "dendron",
+          "strongs": "G1186",
+          "morphologyCode": "N-ASN",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.4.17",
+          "greek": "εἰ",
+          "lemma": "εἰ",
+          "transliteration": "ei",
+          "strongs": "G1487",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.18",
+          "greek": "μὴ",
+          "lemma": "μή",
+          "transliteration": "mē",
+          "strongs": "G3361",
+          "morphologyCode": "PRT-N",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.19",
+          "greek": "τοὺς",
+          "lemma": "ὁ",
+          "transliteration": "tous",
+          "strongs": "G3588",
+          "morphologyCode": "T-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.20",
+          "greek": "ἀνθρώπους",
+          "lemma": "ἄνθρωπος",
+          "transliteration": "anthrōpous",
+          "strongs": "G444",
+          "morphologyCode": "N-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.21",
+          "greek": "οἵτινες",
+          "lemma": "ὅστις, ἥτις",
+          "transliteration": "hoitines",
+          "strongs": "G3748",
+          "morphologyCode": "R-NPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.22",
+          "greek": "οὐκ",
+          "lemma": "οὐ",
+          "transliteration": "ouk",
+          "strongs": "G3756",
+          "morphologyCode": "PRT-N",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.23",
+          "greek": "ἔχουσι",
+          "lemma": "ἔχω",
+          "transliteration": "echousi",
+          "strongs": "G2192",
+          "morphologyCode": "V-PAI-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.24",
+          "greek": "τὴν",
+          "lemma": "ὁ",
+          "transliteration": "tēn",
+          "strongs": "G3588",
+          "morphologyCode": "T-ASF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.25",
+          "greek": "σφραγῖδα",
+          "lemma": "σφραγίς",
+          "transliteration": "sphragida",
+          "strongs": "G4973",
+          "morphologyCode": "N-ASF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.26",
+          "greek": "τοῦ",
+          "lemma": "ὁ",
+          "transliteration": "tou",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.27",
+          "greek": "Θεοῦ",
+          "lemma": "θεός",
+          "transliteration": "Theou",
+          "strongs": "G2316",
+          "morphologyCode": "N-GSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.28",
+          "greek": "ἐπὶ",
+          "lemma": "ἐπί",
+          "transliteration": "epi",
+          "strongs": "G1909",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.29",
+          "greek": "τῶν",
+          "lemma": "ὁ",
+          "transliteration": "tōn",
+          "strongs": "G3588",
+          "morphologyCode": "T-GPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.4.30",
+          "greek": "μετώπων",
+          "lemma": "μέτωπον",
+          "transliteration": "metōpōn",
+          "strongs": "G3359",
+          "morphologyCode": "N-GPN",
+          "punctuationBefore": "",
+          "punctuationAfter": "."
+        }
+      ]
+    },
+    {
+      "verse": 5,
+      "tokens": [
+        {
+          "id": "REV.9.5.1",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.5.2",
+          "greek": "ἐδόθη",
+          "lemma": "δίδωμι",
+          "transliteration": "edothē",
+          "strongs": "G1325",
+          "morphologyCode": "V-API-3S",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.5.3",
+          "greek": "αὐτοῖς",
+          "lemma": "αὐτός",
+          "transliteration": "autois",
+          "strongs": "G846",
+          "morphologyCode": "P-DPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.5.4",
+          "greek": "ἵνα",
+          "lemma": "ἵνα",
+          "transliteration": "hina",
+          "strongs": "G2443",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.5.5",
+          "greek": "μὴ",
+          "lemma": "μή",
+          "transliteration": "mē",
+          "strongs": "G3361",
+          "morphologyCode": "PRT-N",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.5.6",
+          "greek": "ἀποκτείνωσιν",
+          "lemma": "ἀποκτείνω",
+          "transliteration": "apokteinōsin",
+          "strongs": "G615",
+          "morphologyCode": "V-AAS-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.5.7",
+          "greek": "αὐτούς",
+          "lemma": "αὐτός",
+          "transliteration": "autous",
+          "strongs": "G846",
+          "morphologyCode": "P-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.5.8",
+          "greek": "ἀλλ᾽",
+          "lemma": "ἀλλά",
+          "transliteration": "all",
+          "strongs": "G235",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.5.9",
+          "greek": "ἵνα",
+          "lemma": "ἵνα",
+          "transliteration": "hina",
+          "strongs": "G2443",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.5.10",
+          "greek": "βασανισθήσονται",
+          "lemma": "βασανίζω",
+          "transliteration": "basanisthēsontai",
+          "strongs": "G928",
+          "morphologyCode": "V-FPI-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.5.11",
+          "greek": "μῆνας",
+          "lemma": "μήν",
+          "transliteration": "mēnas",
+          "strongs": "G3376",
+          "morphologyCode": "N-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.5.12",
+          "greek": "πέντε",
+          "lemma": "πέντε",
+          "transliteration": "pente",
+          "strongs": "G4002",
+          "morphologyCode": "A-APM-NUI",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.5.13",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.5.14",
+          "greek": "ὁ",
+          "lemma": "ὁ",
+          "transliteration": "ho",
+          "strongs": "G3588",
+          "morphologyCode": "T-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.5.15",
+          "greek": "βασανισμὸς",
+          "lemma": "βασανισμός",
+          "transliteration": "basanismos",
+          "strongs": "G929",
+          "morphologyCode": "N-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.5.16",
+          "greek": "αὐτῶν",
+          "lemma": "αὐτός",
+          "transliteration": "autōn",
+          "strongs": "G846",
+          "morphologyCode": "P-GPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.5.17",
+          "greek": "ὡς",
+          "lemma": "ὡς",
+          "transliteration": "hōs",
+          "strongs": "G5613",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.5.18",
+          "greek": "βασανισμὸς",
+          "lemma": "βασανισμός",
+          "transliteration": "basanismos",
+          "strongs": "G929",
+          "morphologyCode": "N-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.5.19",
+          "greek": "σκορπίου",
+          "lemma": "σκορπίος",
+          "transliteration": "skorpiou",
+          "strongs": "G4651",
+          "morphologyCode": "N-GSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.5.20",
+          "greek": "ὅταν",
+          "lemma": "ὅταν",
+          "transliteration": "hotan",
+          "strongs": "G3752",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.5.21",
+          "greek": "παίσῃ",
+          "lemma": "παίω",
+          "transliteration": "paisē",
+          "strongs": "G3817",
+          "morphologyCode": "V-AAS-3S",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.5.22",
+          "greek": "ἄνθρωπον",
+          "lemma": "ἄνθρωπος",
+          "transliteration": "anthrōpon",
+          "strongs": "G444",
+          "morphologyCode": "N-ASM",
+          "punctuationBefore": "",
+          "punctuationAfter": "."
+        }
+      ]
+    },
+    {
+      "verse": 6,
+      "tokens": [
+        {
+          "id": "REV.9.6.1",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.2",
+          "greek": "ἐν",
+          "lemma": "ἐν",
+          "transliteration": "en",
+          "strongs": "G1722",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.3",
+          "greek": "ταῖς",
+          "lemma": "ὁ",
+          "transliteration": "tais",
+          "strongs": "G3588",
+          "morphologyCode": "T-DPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.4",
+          "greek": "ἡμέραις",
+          "lemma": "ἡμέρα",
+          "transliteration": "hēmerais",
+          "strongs": "G2250",
+          "morphologyCode": "N-DPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.5",
+          "greek": "ἐκείναις",
+          "lemma": "ἐκεῖνος",
+          "transliteration": "ekeinais",
+          "strongs": "G1565",
+          "morphologyCode": "D-DPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.6",
+          "greek": "ζητήσουσιν",
+          "lemma": "ζητέω",
+          "transliteration": "zētēsousin",
+          "strongs": "G2212",
+          "morphologyCode": "V-FAI-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.7",
+          "greek": "οἱ",
+          "lemma": "ὁ",
+          "transliteration": "hoi",
+          "strongs": "G3588",
+          "morphologyCode": "T-NPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.8",
+          "greek": "ἄνθρωποι",
+          "lemma": "ἄνθρωπος",
+          "transliteration": "anthrōpoi",
+          "strongs": "G444",
+          "morphologyCode": "N-NPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.9",
+          "greek": "τὸν",
+          "lemma": "ὁ",
+          "transliteration": "ton",
+          "strongs": "G3588",
+          "morphologyCode": "T-ASM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.10",
+          "greek": "θάνατον",
+          "lemma": "θάνατος",
+          "transliteration": "thanaton",
+          "strongs": "G2288",
+          "morphologyCode": "N-ASM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.11",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.12",
+          "greek": "οὐ",
+          "lemma": "οὐ",
+          "transliteration": "ou",
+          "strongs": "G3756",
+          "morphologyCode": "PRT-N",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.13",
+          "greek": "μὴ",
+          "lemma": "μή",
+          "transliteration": "mē",
+          "strongs": "G3361",
+          "morphologyCode": "PRT-N",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.14",
+          "greek": "εὑρήσουσιν",
+          "lemma": "εὑρίσκω",
+          "transliteration": "heurēsousin",
+          "strongs": "G2147",
+          "morphologyCode": "V-FAI-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.15",
+          "greek": "αὐτόν",
+          "lemma": "αὐτός",
+          "transliteration": "auton",
+          "strongs": "G846",
+          "morphologyCode": "P-ASM",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.6.16",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.17",
+          "greek": "ἐπιθυμήσουσιν",
+          "lemma": "ἐπιθυμέω",
+          "transliteration": "epithymēsousin",
+          "strongs": "G1937",
+          "morphologyCode": "V-FAI-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.18",
+          "greek": "ἀποθανεῖν",
+          "lemma": "ἀποθνήσκω",
+          "transliteration": "apothanein",
+          "strongs": "G599",
+          "morphologyCode": "V-2AAN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.19",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.20",
+          "greek": "φεύγει",
+          "lemma": "φεύγω",
+          "transliteration": "pheugei",
+          "strongs": "G5343",
+          "morphologyCode": "V-PAI-3S",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.21",
+          "greek": "ὁ",
+          "lemma": "ὁ",
+          "transliteration": "ho",
+          "strongs": "G3588",
+          "morphologyCode": "T-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.22",
+          "greek": "θάνατος",
+          "lemma": "θάνατος",
+          "transliteration": "thanatos",
+          "strongs": "G2288",
+          "morphologyCode": "N-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.23",
+          "greek": "ἀπ᾽",
+          "lemma": "ἀπό",
+          "transliteration": "ap",
+          "strongs": "G575",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.6.24",
+          "greek": "αὐτῶν",
+          "lemma": "αὐτός",
+          "transliteration": "autōn",
+          "strongs": "G846",
+          "morphologyCode": "P-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": "."
+        }
+      ]
+    },
+    {
+      "verse": 7,
+      "tokens": [
+        {
+          "id": "REV.9.7.1",
+          "greek": "Καὶ",
+          "lemma": "καί",
+          "transliteration": "Kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.2",
+          "greek": "τὰ",
+          "lemma": "ὁ",
+          "transliteration": "ta",
+          "strongs": "G3588",
+          "morphologyCode": "T-NPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.3",
+          "greek": "ὁμοιώματα",
+          "lemma": "ὁμοίωμα",
+          "transliteration": "homoiōmata",
+          "strongs": "G3667",
+          "morphologyCode": "N-NPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.4",
+          "greek": "τῶν",
+          "lemma": "ὁ",
+          "transliteration": "tōn",
+          "strongs": "G3588",
+          "morphologyCode": "T-GPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.5",
+          "greek": "ἀκρίδων",
+          "lemma": "ἀκρίς",
+          "transliteration": "akridōn",
+          "strongs": "G200",
+          "morphologyCode": "N-GPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.6",
+          "greek": "ὅμοια",
+          "lemma": "ὅμοιος",
+          "transliteration": "homoia",
+          "strongs": "G3664",
+          "morphologyCode": "A-NPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.7",
+          "greek": "ἵπποις",
+          "lemma": "ἵππος",
+          "transliteration": "hippois",
+          "strongs": "G2462",
+          "morphologyCode": "N-DPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.8",
+          "greek": "ἡτοιμασμένοις",
+          "lemma": "ἑτοιμάζω",
+          "transliteration": "hētoimasmenois",
+          "strongs": "G2090",
+          "morphologyCode": "V-RPP-DPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.9",
+          "greek": "εἰς",
+          "lemma": "εἰς",
+          "transliteration": "eis",
+          "strongs": "G1519",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.10",
+          "greek": "πόλεμον",
+          "lemma": "πόλεμος",
+          "transliteration": "polemon",
+          "strongs": "G4171",
+          "morphologyCode": "N-ASM",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.7.11",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.12",
+          "greek": "ἐπὶ",
+          "lemma": "ἐπί",
+          "transliteration": "epi",
+          "strongs": "G1909",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.13",
+          "greek": "τὰς",
+          "lemma": "ὁ",
+          "transliteration": "tas",
+          "strongs": "G3588",
+          "morphologyCode": "T-APF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.14",
+          "greek": "κεφαλὰς",
+          "lemma": "κεφαλή",
+          "transliteration": "kephalas",
+          "strongs": "G2776",
+          "morphologyCode": "N-APF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.15",
+          "greek": "αὐτῶν",
+          "lemma": "αὐτός",
+          "transliteration": "autōn",
+          "strongs": "G846",
+          "morphologyCode": "P-GPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.16",
+          "greek": "ὡς",
+          "lemma": "ὡς",
+          "transliteration": "hōs",
+          "strongs": "G5613",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.17",
+          "greek": "στέφανοι",
+          "lemma": "στέφανος",
+          "transliteration": "stephanoi",
+          "strongs": "G4735",
+          "morphologyCode": "N-NPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.18",
+          "greek": "ὅμοιοι",
+          "lemma": "ὅμοιος",
+          "transliteration": "homoioi",
+          "strongs": "G3664",
+          "morphologyCode": "A-NPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.19",
+          "greek": "χρυσῷ",
+          "lemma": "χρυσός",
+          "transliteration": "chrysō",
+          "strongs": "G5557",
+          "morphologyCode": "N-DSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.7.20",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.21",
+          "greek": "τὰ",
+          "lemma": "ὁ",
+          "transliteration": "ta",
+          "strongs": "G3588",
+          "morphologyCode": "T-NPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.22",
+          "greek": "πρόσωπα",
+          "lemma": "πρόσωπον",
+          "transliteration": "prosōpa",
+          "strongs": "G4383",
+          "morphologyCode": "N-NPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.23",
+          "greek": "αὐτῶν",
+          "lemma": "αὐτός",
+          "transliteration": "autōn",
+          "strongs": "G846",
+          "morphologyCode": "P-GPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.24",
+          "greek": "ὡς",
+          "lemma": "ὡς",
+          "transliteration": "hōs",
+          "strongs": "G5613",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.25",
+          "greek": "πρόσωπα",
+          "lemma": "πρόσωπον",
+          "transliteration": "prosōpa",
+          "strongs": "G4383",
+          "morphologyCode": "N-NPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.7.26",
+          "greek": "ἀνθρώπων",
+          "lemma": "ἄνθρωπος",
+          "transliteration": "anthrōpōn",
+          "strongs": "G444",
+          "morphologyCode": "N-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        }
+      ]
+    },
+    {
+      "verse": 8,
+      "tokens": [
+        {
+          "id": "REV.9.8.1",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.8.2",
+          "greek": "εἶχον",
+          "lemma": "ἔχω",
+          "transliteration": "eichon",
+          "strongs": "G2192",
+          "morphologyCode": "V-IAI-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.8.3",
+          "greek": "τρίχας",
+          "lemma": "θρίξ",
+          "transliteration": "trichas",
+          "strongs": "G2359",
+          "morphologyCode": "N-APF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.8.4",
+          "greek": "ὡς",
+          "lemma": "ὡς",
+          "transliteration": "hōs",
+          "strongs": "G5613",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.8.5",
+          "greek": "τρίχας",
+          "lemma": "θρίξ",
+          "transliteration": "trichas",
+          "strongs": "G2359",
+          "morphologyCode": "N-APF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.8.6",
+          "greek": "γυναικῶν",
+          "lemma": "γυνή",
+          "transliteration": "gynaikōn",
+          "strongs": "G1135",
+          "morphologyCode": "N-GPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.8.7",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.8.8",
+          "greek": "οἱ",
+          "lemma": "ὁ",
+          "transliteration": "hoi",
+          "strongs": "G3588",
+          "morphologyCode": "T-NPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.8.9",
+          "greek": "ὀδόντες",
+          "lemma": "ὀδούς",
+          "transliteration": "odontes",
+          "strongs": "G3599",
+          "morphologyCode": "N-NPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.8.10",
+          "greek": "αὐτῶν",
+          "lemma": "αὐτός",
+          "transliteration": "autōn",
+          "strongs": "G846",
+          "morphologyCode": "P-GPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.8.11",
+          "greek": "ὡς",
+          "lemma": "ὡς",
+          "transliteration": "hōs",
+          "strongs": "G5613",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.8.12",
+          "greek": "λεόντων",
+          "lemma": "λέων",
+          "transliteration": "leontōn",
+          "strongs": "G3023",
+          "morphologyCode": "N-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.8.13",
+          "greek": "ἦσαν",
+          "lemma": "εἰμί",
+          "transliteration": "ēsan",
+          "strongs": "G1510",
+          "morphologyCode": "V-IAI-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        }
+      ]
+    },
+    {
+      "verse": 9,
+      "tokens": [
+        {
+          "id": "REV.9.9.1",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.9.2",
+          "greek": "εἶχον",
+          "lemma": "ἔχω",
+          "transliteration": "eichon",
+          "strongs": "G2192",
+          "morphologyCode": "V-IAI-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.9.3",
+          "greek": "θώρακας",
+          "lemma": "θώραξ",
+          "transliteration": "thōrakas",
+          "strongs": "G2382",
+          "morphologyCode": "N-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.9.4",
+          "greek": "ὡς",
+          "lemma": "ὡς",
+          "transliteration": "hōs",
+          "strongs": "G5613",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.9.5",
+          "greek": "θώρακας",
+          "lemma": "θώραξ",
+          "transliteration": "thōrakas",
+          "strongs": "G2382",
+          "morphologyCode": "N-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.9.6",
+          "greek": "σιδηροῦς",
+          "lemma": "σιδήρεος",
+          "transliteration": "sidērous",
+          "strongs": "G4603",
+          "morphologyCode": "A-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.9.7",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.9.8",
+          "greek": "ἡ",
+          "lemma": "ὁ",
+          "transliteration": "hē",
+          "strongs": "G3588",
+          "morphologyCode": "T-NSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.9.9",
+          "greek": "φωνὴ",
+          "lemma": "φωνή",
+          "transliteration": "phōnē",
+          "strongs": "G5456",
+          "morphologyCode": "N-NSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.9.10",
+          "greek": "τῶν",
+          "lemma": "ὁ",
+          "transliteration": "tōn",
+          "strongs": "G3588",
+          "morphologyCode": "T-GPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.9.11",
+          "greek": "πτερύγων",
+          "lemma": "πτέρυξ",
+          "transliteration": "pterygōn",
+          "strongs": "G4420",
+          "morphologyCode": "N-GPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.9.12",
+          "greek": "αὐτῶν",
+          "lemma": "αὐτός",
+          "transliteration": "autōn",
+          "strongs": "G846",
+          "morphologyCode": "P-GPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.9.13",
+          "greek": "ὡς",
+          "lemma": "ὡς",
+          "transliteration": "hōs",
+          "strongs": "G5613",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.9.14",
+          "greek": "φωνὴ",
+          "lemma": "φωνή",
+          "transliteration": "phōnē",
+          "strongs": "G5456",
+          "morphologyCode": "N-NSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.9.15",
+          "greek": "ἁρμάτων",
+          "lemma": "ἅρμα",
+          "transliteration": "harmatōn",
+          "strongs": "G716",
+          "morphologyCode": "N-GPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.9.16",
+          "greek": "ἵππων",
+          "lemma": "ἵππος",
+          "transliteration": "hippōn",
+          "strongs": "G2462",
+          "morphologyCode": "N-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.9.17",
+          "greek": "πολλῶν",
+          "lemma": "πολύς",
+          "transliteration": "pollōn",
+          "strongs": "G4183",
+          "morphologyCode": "A-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.9.18",
+          "greek": "τρεχόντων",
+          "lemma": "τρέχω",
+          "transliteration": "trechontōn",
+          "strongs": "G5143",
+          "morphologyCode": "V-PAP-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.9.19",
+          "greek": "εἰς",
+          "lemma": "εἰς",
+          "transliteration": "eis",
+          "strongs": "G1519",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.9.20",
+          "greek": "πόλεμον",
+          "lemma": "πόλεμος",
+          "transliteration": "polemon",
+          "strongs": "G4171",
+          "morphologyCode": "N-ASM",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        }
+      ]
+    },
+    {
+      "verse": 10,
+      "tokens": [
+        {
+          "id": "REV.9.10.1",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.10.2",
+          "greek": "ἔχουσιν",
+          "lemma": "ἔχω",
+          "transliteration": "echousin",
+          "strongs": "G2192",
+          "morphologyCode": "V-PAI-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.10.3",
+          "greek": "οὐρὰς",
+          "lemma": "οὐρά",
+          "transliteration": "ouras",
+          "strongs": "G3769",
+          "morphologyCode": "N-APF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.10.4",
+          "greek": "ὁμοίας",
+          "lemma": "ὅμοιος",
+          "transliteration": "homoias",
+          "strongs": "G3664",
+          "morphologyCode": "A-APF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.10.5",
+          "greek": "σκορπίοις",
+          "lemma": "σκορπίος",
+          "transliteration": "skorpiois",
+          "strongs": "G4651",
+          "morphologyCode": "N-DPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.10.6",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.10.7",
+          "greek": "κέντρα",
+          "lemma": "κέντρον",
+          "transliteration": "kentra",
+          "strongs": "G2759",
+          "morphologyCode": "N-APN",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.10.8",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.10.9",
+          "greek": "ἐν",
+          "lemma": "ἐν",
+          "transliteration": "en",
+          "strongs": "G1722",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.10.10",
+          "greek": "ταῖς",
+          "lemma": "ὁ",
+          "transliteration": "tais",
+          "strongs": "G3588",
+          "morphologyCode": "T-DPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.10.11",
+          "greek": "οὐραῖς",
+          "lemma": "οὐρά",
+          "transliteration": "ourais",
+          "strongs": "G3769",
+          "morphologyCode": "N-DPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.10.12",
+          "greek": "αὐτῶν",
+          "lemma": "αὐτός",
+          "transliteration": "autōn",
+          "strongs": "G846",
+          "morphologyCode": "P-GPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.10.13",
+          "greek": "ἡ",
+          "lemma": "ὁ",
+          "transliteration": "hē",
+          "strongs": "G3588",
+          "morphologyCode": "T-NSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.10.14",
+          "greek": "ἐξουσία",
+          "lemma": "ἐξουσία",
+          "transliteration": "exousia",
+          "strongs": "G1849",
+          "morphologyCode": "N-NSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.10.15",
+          "greek": "αὐτῶν",
+          "lemma": "αὐτός",
+          "transliteration": "autōn",
+          "strongs": "G846",
+          "morphologyCode": "P-GPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.10.16",
+          "greek": "ἀδικῆσαι",
+          "lemma": "ἀδικέω",
+          "transliteration": "adikēsai",
+          "strongs": "G91",
+          "morphologyCode": "V-AAN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.10.17",
+          "greek": "τοὺς",
+          "lemma": "ὁ",
+          "transliteration": "tous",
+          "strongs": "G3588",
+          "morphologyCode": "T-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.10.18",
+          "greek": "ἀνθρώπους",
+          "lemma": "ἄνθρωπος",
+          "transliteration": "anthrōpous",
+          "strongs": "G444",
+          "morphologyCode": "N-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.10.19",
+          "greek": "μῆνας",
+          "lemma": "μήν",
+          "transliteration": "mēnas",
+          "strongs": "G3376",
+          "morphologyCode": "N-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.10.20",
+          "greek": "πέντε",
+          "lemma": "πέντε",
+          "transliteration": "pente",
+          "strongs": "G4002",
+          "morphologyCode": "A-APM-NUI",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        }
+      ]
+    },
+    {
+      "verse": 11,
+      "tokens": [
+        {
+          "id": "REV.9.11.1",
+          "greek": "ἔχουσιν",
+          "lemma": "ἔχω",
+          "transliteration": "echousin",
+          "strongs": "G2192",
+          "morphologyCode": "V-PAI-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.11.2",
+          "greek": "ἐπ᾽",
+          "lemma": "ἐπί",
+          "transliteration": "ep",
+          "strongs": "G1909",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.11.3",
+          "greek": "αὐτῶν",
+          "lemma": "αὐτός",
+          "transliteration": "autōn",
+          "strongs": "G846",
+          "morphologyCode": "P-GPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.11.4",
+          "greek": "βασιλέα",
+          "lemma": "βασιλεύς",
+          "transliteration": "basilea",
+          "strongs": "G935",
+          "morphologyCode": "N-ASM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.11.5",
+          "greek": "τὸν",
+          "lemma": "ὁ",
+          "transliteration": "ton",
+          "strongs": "G3588",
+          "morphologyCode": "T-ASM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.11.6",
+          "greek": "ἄγγελον",
+          "lemma": "ἄγγελος",
+          "transliteration": "angelon",
+          "strongs": "G32",
+          "morphologyCode": "N-ASM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.11.7",
+          "greek": "τῆς",
+          "lemma": "ὁ",
+          "transliteration": "tēs",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.11.8",
+          "greek": "ἀβύσσου",
+          "lemma": "ἄβυσσος",
+          "transliteration": "abyssou",
+          "strongs": "G12",
+          "morphologyCode": "N-GSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.11.9",
+          "greek": "ὄνομα",
+          "lemma": "ὄνομα",
+          "transliteration": "onoma",
+          "strongs": "G3686",
+          "morphologyCode": "N-NSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.11.10",
+          "greek": "αὐτῷ",
+          "lemma": "αὐτός",
+          "transliteration": "autō",
+          "strongs": "G846",
+          "morphologyCode": "P-DSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.11.11",
+          "greek": "Ἑβραϊστί",
+          "lemma": "Ἑβραϊστί",
+          "transliteration": "Hebraisti",
+          "strongs": "G1447",
+          "morphologyCode": "ADV",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.11.12",
+          "greek": "Ἀβαδδών",
+          "lemma": "Ἀβαδδών",
+          "transliteration": "Abaddōn",
+          "strongs": "G3",
+          "morphologyCode": "N-NSM-T",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.11.13",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.11.14",
+          "greek": "ἐν",
+          "lemma": "ἐν",
+          "transliteration": "en",
+          "strongs": "G1722",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.11.15",
+          "greek": "τῇ",
+          "lemma": "ὁ",
+          "transliteration": "tē",
+          "strongs": "G3588",
+          "morphologyCode": "T-DSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.11.16",
+          "greek": "Ἑλληνικῇ",
+          "lemma": "Ἑλληνικός",
+          "transliteration": "Hellēnikē",
+          "strongs": "G1673",
+          "morphologyCode": "A-DSF-LG",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.11.17",
+          "greek": "ὄνομα",
+          "lemma": "ὄνομα",
+          "transliteration": "onoma",
+          "strongs": "G3686",
+          "morphologyCode": "N-ASN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.11.18",
+          "greek": "ἔχει",
+          "lemma": "ἔχω",
+          "transliteration": "echei",
+          "strongs": "G2192",
+          "morphologyCode": "V-PAI-3S",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.11.19",
+          "greek": "Ἀπολλύων",
+          "lemma": "Ἀπολλύων",
+          "transliteration": "Apollyōn",
+          "strongs": "G623",
+          "morphologyCode": "N-NSM-T",
+          "punctuationBefore": "",
+          "punctuationAfter": "."
+        }
+      ]
+    },
+    {
+      "verse": 12,
+      "tokens": [
+        {
+          "id": "REV.9.12.1",
+          "greek": "Ἡ",
+          "lemma": "ὁ",
+          "transliteration": "Hē",
+          "strongs": "G3588",
+          "morphologyCode": "T-NSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.12.2",
+          "greek": "Οὐαὶ",
+          "lemma": "οὐαί",
+          "transliteration": "Ouai",
+          "strongs": "G3759",
+          "morphologyCode": "INJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.12.3",
+          "greek": "ἡ",
+          "lemma": "ὁ",
+          "transliteration": "hē",
+          "strongs": "G3588",
+          "morphologyCode": "T-NSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.12.4",
+          "greek": "μία",
+          "lemma": "εἷς",
+          "transliteration": "mia",
+          "strongs": "G1520",
+          "morphologyCode": "A-NSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.12.5",
+          "greek": "ἀπῆλθεν",
+          "lemma": "ἀπέρχομαι",
+          "transliteration": "apēlthen",
+          "strongs": "G565",
+          "morphologyCode": "V-2AAI-3S",
+          "punctuationBefore": "",
+          "punctuationAfter": "·"
+        },
+        {
+          "id": "REV.9.12.6",
+          "greek": "ἰδοὺ",
+          "lemma": "ἰδού",
+          "transliteration": "idou",
+          "strongs": "G2400",
+          "morphologyCode": "INJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.12.7",
+          "greek": "ἔρχεται",
+          "lemma": "ἔρχομαι",
+          "transliteration": "erchetai",
+          "strongs": "G2064",
+          "morphologyCode": "V-PNI-3S",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.12.8",
+          "greek": "ἔτι",
+          "lemma": "ἔτι",
+          "transliteration": "eti",
+          "strongs": "G2089",
+          "morphologyCode": "ADV",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.12.9",
+          "greek": "δύο",
+          "lemma": "δύο",
+          "transliteration": "dyo",
+          "strongs": "G1417",
+          "morphologyCode": "A-NPF-NUI",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.12.10",
+          "greek": "Οὐαὶ",
+          "lemma": "οὐαί",
+          "transliteration": "Ouai",
+          "strongs": "G3759",
+          "morphologyCode": "INJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.12.11",
+          "greek": "μετὰ",
+          "lemma": "μετά",
+          "transliteration": "meta",
+          "strongs": "G3326",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.12.12",
+          "greek": "ταῦτα",
+          "lemma": "οὗτος",
+          "transliteration": "tauta",
+          "strongs": "G3778",
+          "morphologyCode": "D-APN",
+          "punctuationBefore": "",
+          "punctuationAfter": "."
+        }
+      ]
+    },
+    {
+      "verse": 13,
+      "tokens": [
+        {
+          "id": "REV.9.13.1",
+          "greek": "Καὶ",
+          "lemma": "καί",
+          "transliteration": "Kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.13.2",
+          "greek": "ὁ",
+          "lemma": "ὁ",
+          "transliteration": "ho",
+          "strongs": "G3588",
+          "morphologyCode": "T-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.13.3",
+          "greek": "ἕκτος",
+          "lemma": "ἕκτος",
+          "transliteration": "hektos",
+          "strongs": "G1623",
+          "morphologyCode": "A-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.13.4",
+          "greek": "ἄγγελος",
+          "lemma": "ἄγγελος",
+          "transliteration": "angelos",
+          "strongs": "G32",
+          "morphologyCode": "N-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.13.5",
+          "greek": "ἐσάλπισεν",
+          "lemma": "σαλπίζω",
+          "transliteration": "esalpisen",
+          "strongs": "G4537",
+          "morphologyCode": "V-AAI-3S",
+          "punctuationBefore": "",
+          "punctuationAfter": "·"
+        },
+        {
+          "id": "REV.9.13.6",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.13.7",
+          "greek": "ἤκουσα",
+          "lemma": "ἀκούω",
+          "transliteration": "ēkousa",
+          "strongs": "G191",
+          "morphologyCode": "V-AAI-1S",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.13.8",
+          "greek": "φωνὴν",
+          "lemma": "φωνή",
+          "transliteration": "phōnēn",
+          "strongs": "G5456",
+          "morphologyCode": "N-ASF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.13.9",
+          "greek": "μίαν",
+          "lemma": "εἷς",
+          "transliteration": "mian",
+          "strongs": "G1520",
+          "morphologyCode": "A-ASF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.13.10",
+          "greek": "ἐκ",
+          "lemma": "ἐκ",
+          "transliteration": "ek",
+          "strongs": "G1537",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.13.11",
+          "greek": "τῶν",
+          "lemma": "ὁ",
+          "transliteration": "tōn",
+          "strongs": "G3588",
+          "morphologyCode": "T-GPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.13.12",
+          "greek": "τεσσάρων",
+          "lemma": "τέσσαρες",
+          "transliteration": "tessarōn",
+          "strongs": "G5064",
+          "morphologyCode": "A-GPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.13.13",
+          "greek": "κεράτων",
+          "lemma": "κέρας",
+          "transliteration": "keratōn",
+          "strongs": "G2768",
+          "morphologyCode": "N-GPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.13.14",
+          "greek": "τοῦ",
+          "lemma": "ὁ",
+          "transliteration": "tou",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.13.15",
+          "greek": "θυσιαστηρίου",
+          "lemma": "θυσιαστήριον",
+          "transliteration": "thysiastēriou",
+          "strongs": "G2379",
+          "morphologyCode": "N-GSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.13.16",
+          "greek": "τοῦ",
+          "lemma": "ὁ",
+          "transliteration": "tou",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.13.17",
+          "greek": "χρυσοῦ",
+          "lemma": "χρύσεος",
+          "transliteration": "chrysou",
+          "strongs": "G5552",
+          "morphologyCode": "A-GSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.13.18",
+          "greek": "τοῦ",
+          "lemma": "ὁ",
+          "transliteration": "tou",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.13.19",
+          "greek": "ἐνώπιον",
+          "lemma": "ἐνώπιον",
+          "transliteration": "enōpion",
+          "strongs": "G1799",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.13.20",
+          "greek": "τοῦ",
+          "lemma": "ὁ",
+          "transliteration": "tou",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.13.21",
+          "greek": "Θεοῦ",
+          "lemma": "θεός",
+          "transliteration": "Theou",
+          "strongs": "G2316",
+          "morphologyCode": "N-GSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        }
+      ]
+    },
+    {
+      "verse": 14,
+      "tokens": [
+        {
+          "id": "REV.9.14.1",
+          "greek": "λέγοντα",
+          "lemma": "λέγω",
+          "transliteration": "legonta",
+          "strongs": "G3004",
+          "morphologyCode": "V-PAP-ASM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.14.2",
+          "greek": "τῷ",
+          "lemma": "ὁ",
+          "transliteration": "tō",
+          "strongs": "G3588",
+          "morphologyCode": "T-DSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.14.3",
+          "greek": "ἕκτῳ",
+          "lemma": "ἕκτος",
+          "transliteration": "hektō",
+          "strongs": "G1623",
+          "morphologyCode": "A-DSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.14.4",
+          "greek": "ἀγγέλῳ",
+          "lemma": "ἄγγελος",
+          "transliteration": "angelō",
+          "strongs": "G32",
+          "morphologyCode": "N-DSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.14.5",
+          "greek": "ὁ",
+          "lemma": "ὁ",
+          "transliteration": "ho",
+          "strongs": "G3588",
+          "morphologyCode": "T-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.14.6",
+          "greek": "ἔχων",
+          "lemma": "ἔχω",
+          "transliteration": "echōn",
+          "strongs": "G2192",
+          "morphologyCode": "V-PAP-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.14.7",
+          "greek": "τὴν",
+          "lemma": "ὁ",
+          "transliteration": "tēn",
+          "strongs": "G3588",
+          "morphologyCode": "T-ASF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.14.8",
+          "greek": "σάλπιγγα",
+          "lemma": "σάλπιγξ",
+          "transliteration": "salpinga",
+          "strongs": "G4536",
+          "morphologyCode": "N-ASF",
+          "punctuationBefore": "",
+          "punctuationAfter": "·"
+        },
+        {
+          "id": "REV.9.14.9",
+          "greek": "Λῦσον",
+          "lemma": "λύω",
+          "transliteration": "Lyson",
+          "strongs": "G3089",
+          "morphologyCode": "V-AAM-2S",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.14.10",
+          "greek": "τοὺς",
+          "lemma": "ὁ",
+          "transliteration": "tous",
+          "strongs": "G3588",
+          "morphologyCode": "T-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.14.11",
+          "greek": "τέσσαρας",
+          "lemma": "τέσσαρες",
+          "transliteration": "tessaras",
+          "strongs": "G5064",
+          "morphologyCode": "A-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.14.12",
+          "greek": "ἀγγέλους",
+          "lemma": "ἄγγελος",
+          "transliteration": "angelous",
+          "strongs": "G32",
+          "morphologyCode": "N-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.14.13",
+          "greek": "τοὺς",
+          "lemma": "ὁ",
+          "transliteration": "tous",
+          "strongs": "G3588",
+          "morphologyCode": "T-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.14.14",
+          "greek": "δεδεμένους",
+          "lemma": "δέω",
+          "transliteration": "dedemenous",
+          "strongs": "G1210",
+          "morphologyCode": "V-RPP-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.14.15",
+          "greek": "ἐπὶ",
+          "lemma": "ἐπί",
+          "transliteration": "epi",
+          "strongs": "G1909",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.14.16",
+          "greek": "τῷ",
+          "lemma": "ὁ",
+          "transliteration": "tō",
+          "strongs": "G3588",
+          "morphologyCode": "T-DSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.14.17",
+          "greek": "ποταμῷ",
+          "lemma": "ποταμός",
+          "transliteration": "potamō",
+          "strongs": "G4215",
+          "morphologyCode": "N-DSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.14.18",
+          "greek": "τῷ",
+          "lemma": "ὁ",
+          "transliteration": "tō",
+          "strongs": "G3588",
+          "morphologyCode": "T-DSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.14.19",
+          "greek": "μεγάλῳ",
+          "lemma": "μέγας",
+          "transliteration": "megalō",
+          "strongs": "G3173",
+          "morphologyCode": "A-DSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.14.20",
+          "greek": "Εὐφράτῃ",
+          "lemma": "Εὐφράτης",
+          "transliteration": "Euphratē",
+          "strongs": "G2166",
+          "morphologyCode": "N-DSM-L",
+          "punctuationBefore": "",
+          "punctuationAfter": "."
+        }
+      ]
+    },
+    {
+      "verse": 15,
+      "tokens": [
+        {
+          "id": "REV.9.15.1",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.15.2",
+          "greek": "ἐλύθησαν",
+          "lemma": "λύω",
+          "transliteration": "elythēsan",
+          "strongs": "G3089",
+          "morphologyCode": "V-API-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.15.3",
+          "greek": "οἱ",
+          "lemma": "ὁ",
+          "transliteration": "hoi",
+          "strongs": "G3588",
+          "morphologyCode": "T-NPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.15.4",
+          "greek": "τέσσαρες",
+          "lemma": "τέσσαρες",
+          "transliteration": "tessares",
+          "strongs": "G5064",
+          "morphologyCode": "A-NPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.15.5",
+          "greek": "ἄγγελοι",
+          "lemma": "ἄγγελος",
+          "transliteration": "angeloi",
+          "strongs": "G32",
+          "morphologyCode": "N-NPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.15.6",
+          "greek": "οἱ",
+          "lemma": "ὁ",
+          "transliteration": "hoi",
+          "strongs": "G3588",
+          "morphologyCode": "T-NPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.15.7",
+          "greek": "ἡτοιμασμένοι",
+          "lemma": "ἑτοιμάζω",
+          "transliteration": "hētoimasmenoi",
+          "strongs": "G2090",
+          "morphologyCode": "V-RPP-NPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.15.8",
+          "greek": "εἰς",
+          "lemma": "εἰς",
+          "transliteration": "eis",
+          "strongs": "G1519",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.15.9",
+          "greek": "τὴν",
+          "lemma": "ὁ",
+          "transliteration": "tēn",
+          "strongs": "G3588",
+          "morphologyCode": "T-ASF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.15.10",
+          "greek": "ὥραν",
+          "lemma": "ὥρα",
+          "transliteration": "hōran",
+          "strongs": "G5610",
+          "morphologyCode": "N-ASF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.15.11",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.15.12",
+          "greek": "ἡμέραν",
+          "lemma": "ἡμέρα",
+          "transliteration": "hēmeran",
+          "strongs": "G2250",
+          "morphologyCode": "N-ASF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.15.13",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.15.14",
+          "greek": "μῆνα",
+          "lemma": "μήν",
+          "transliteration": "mēna",
+          "strongs": "G3376",
+          "morphologyCode": "N-ASM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.15.15",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.15.16",
+          "greek": "ἐνιαυτόν",
+          "lemma": "ἐνιαυτός",
+          "transliteration": "eniauton",
+          "strongs": "G1763",
+          "morphologyCode": "N-ASM",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.15.17",
+          "greek": "ἵνα",
+          "lemma": "ἵνα",
+          "transliteration": "hina",
+          "strongs": "G2443",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.15.18",
+          "greek": "ἀποκτείνωσιν",
+          "lemma": "ἀποκτείνω",
+          "transliteration": "apokteinōsin",
+          "strongs": "G615",
+          "morphologyCode": "V-AAS-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.15.19",
+          "greek": "τὸ",
+          "lemma": "ὁ",
+          "transliteration": "to",
+          "strongs": "G3588",
+          "morphologyCode": "T-ASN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.15.20",
+          "greek": "τρίτον",
+          "lemma": "τρίτος",
+          "transliteration": "triton",
+          "strongs": "G5154",
+          "morphologyCode": "A-ASN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.15.21",
+          "greek": "τῶν",
+          "lemma": "ὁ",
+          "transliteration": "tōn",
+          "strongs": "G3588",
+          "morphologyCode": "T-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.15.22",
+          "greek": "ἀνθρώπων",
+          "lemma": "ἄνθρωπος",
+          "transliteration": "anthrōpōn",
+          "strongs": "G444",
+          "morphologyCode": "N-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": "."
+        }
+      ]
+    },
+    {
+      "verse": 16,
+      "tokens": [
+        {
+          "id": "REV.9.16.1",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.16.2",
+          "greek": "ὁ",
+          "lemma": "ὁ",
+          "transliteration": "ho",
+          "strongs": "G3588",
+          "morphologyCode": "T-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.16.3",
+          "greek": "ἀριθμὸς",
+          "lemma": "ἀριθμός",
+          "transliteration": "arithmos",
+          "strongs": "G706",
+          "morphologyCode": "N-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.16.4",
+          "greek": "τῶν",
+          "lemma": "ὁ",
+          "transliteration": "tōn",
+          "strongs": "G3588",
+          "morphologyCode": "T-GPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.16.5",
+          "greek": "στρατευμάτων",
+          "lemma": "στράτευμα",
+          "transliteration": "strateumatōn",
+          "strongs": "G4753",
+          "morphologyCode": "N-GPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.16.6",
+          "greek": "τοῦ",
+          "lemma": "ὁ",
+          "transliteration": "tou",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.16.7",
+          "greek": "ἱππικοῦ",
+          "lemma": "ἱππικός",
+          "transliteration": "hippikou",
+          "strongs": "G2461",
+          "morphologyCode": "A-GSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.16.8",
+          "greek": "δισμυριάδες",
+          "lemma": "δισμυριάς",
+          "transliteration": "dismyriades",
+          "strongs": "G6019",
+          "morphologyCode": "N-NPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.16.9",
+          "greek": "μυριάδων",
+          "lemma": "μυριάς",
+          "transliteration": "myriadōn",
+          "strongs": "G3461",
+          "morphologyCode": "N-GPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.16.10",
+          "greek": "ἤκουσα",
+          "lemma": "ἀκούω",
+          "transliteration": "ēkousa",
+          "strongs": "G191",
+          "morphologyCode": "V-AAI-1S",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.16.11",
+          "greek": "τὸν",
+          "lemma": "ὁ",
+          "transliteration": "ton",
+          "strongs": "G3588",
+          "morphologyCode": "T-ASM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.16.12",
+          "greek": "ἀριθμὸν",
+          "lemma": "ἀριθμός",
+          "transliteration": "arithmon",
+          "strongs": "G706",
+          "morphologyCode": "N-ASM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.16.13",
+          "greek": "αὐτῶν",
+          "lemma": "αὐτός",
+          "transliteration": "autōn",
+          "strongs": "G846",
+          "morphologyCode": "P-GPN",
+          "punctuationBefore": "",
+          "punctuationAfter": "."
+        }
+      ]
+    },
+    {
+      "verse": 17,
+      "tokens": [
+        {
+          "id": "REV.9.17.1",
+          "greek": "Καὶ",
+          "lemma": "καί",
+          "transliteration": "Kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.2",
+          "greek": "οὕτως",
+          "lemma": "οὕτω, οὕτως",
+          "transliteration": "houtōs",
+          "strongs": "G3779",
+          "morphologyCode": "ADV",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.3",
+          "greek": "εἶδον",
+          "lemma": "εἴδω",
+          "transliteration": "eidon",
+          "strongs": "G1492",
+          "morphologyCode": "V-2AAI-1S",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.4",
+          "greek": "τοὺς",
+          "lemma": "ὁ",
+          "transliteration": "tous",
+          "strongs": "G3588",
+          "morphologyCode": "T-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.5",
+          "greek": "ἵππους",
+          "lemma": "ἵππος",
+          "transliteration": "hippous",
+          "strongs": "G2462",
+          "morphologyCode": "N-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.6",
+          "greek": "ἐν",
+          "lemma": "ἐν",
+          "transliteration": "en",
+          "strongs": "G1722",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.7",
+          "greek": "τῇ",
+          "lemma": "ὁ",
+          "transliteration": "tē",
+          "strongs": "G3588",
+          "morphologyCode": "T-DSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.8",
+          "greek": "ὁράσει",
+          "lemma": "ὅρασις",
+          "transliteration": "horasei",
+          "strongs": "G3706",
+          "morphologyCode": "N-DSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.9",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.10",
+          "greek": "τοὺς",
+          "lemma": "ὁ",
+          "transliteration": "tous",
+          "strongs": "G3588",
+          "morphologyCode": "T-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.11",
+          "greek": "καθημένους",
+          "lemma": "κάθημαι",
+          "transliteration": "kathēmenous",
+          "strongs": "G2521",
+          "morphologyCode": "V-PNP-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.12",
+          "greek": "ἐπ᾽",
+          "lemma": "ἐπί",
+          "transliteration": "ep",
+          "strongs": "G1909",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.13",
+          "greek": "αὐτῶν",
+          "lemma": "αὐτός",
+          "transliteration": "autōn",
+          "strongs": "G846",
+          "morphologyCode": "P-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.17.14",
+          "greek": "ἔχοντας",
+          "lemma": "ἔχω",
+          "transliteration": "echontas",
+          "strongs": "G2192",
+          "morphologyCode": "V-PAP-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.15",
+          "greek": "θώρακας",
+          "lemma": "θώραξ",
+          "transliteration": "thōrakas",
+          "strongs": "G2382",
+          "morphologyCode": "N-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.16",
+          "greek": "πυρίνους",
+          "lemma": "πύρινος",
+          "transliteration": "pyrinous",
+          "strongs": "G4447",
+          "morphologyCode": "A-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.17",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.18",
+          "greek": "ὑακινθίνους",
+          "lemma": "ὑακίνθινος",
+          "transliteration": "hyakinthinous",
+          "strongs": "G5191",
+          "morphologyCode": "A-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.19",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.20",
+          "greek": "θειώδεις",
+          "lemma": "θειώδης",
+          "transliteration": "theiōdeis",
+          "strongs": "G2306",
+          "morphologyCode": "A-APM",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.17.21",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.22",
+          "greek": "αἱ",
+          "lemma": "ὁ",
+          "transliteration": "hai",
+          "strongs": "G3588",
+          "morphologyCode": "T-NPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.23",
+          "greek": "κεφαλαὶ",
+          "lemma": "κεφαλή",
+          "transliteration": "kephalai",
+          "strongs": "G2776",
+          "morphologyCode": "N-NPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.24",
+          "greek": "τῶν",
+          "lemma": "ὁ",
+          "transliteration": "tōn",
+          "strongs": "G3588",
+          "morphologyCode": "T-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.25",
+          "greek": "ἵππων",
+          "lemma": "ἵππος",
+          "transliteration": "hippōn",
+          "strongs": "G2462",
+          "morphologyCode": "N-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.26",
+          "greek": "ὡς",
+          "lemma": "ὡς",
+          "transliteration": "hōs",
+          "strongs": "G5613",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.27",
+          "greek": "κεφαλαὶ",
+          "lemma": "κεφαλή",
+          "transliteration": "kephalai",
+          "strongs": "G2776",
+          "morphologyCode": "N-NPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.28",
+          "greek": "λεόντων",
+          "lemma": "λέων",
+          "transliteration": "leontōn",
+          "strongs": "G3023",
+          "morphologyCode": "N-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.17.29",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.30",
+          "greek": "ἐκ",
+          "lemma": "ἐκ",
+          "transliteration": "ek",
+          "strongs": "G1537",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.31",
+          "greek": "τῶν",
+          "lemma": "ὁ",
+          "transliteration": "tōn",
+          "strongs": "G3588",
+          "morphologyCode": "T-GPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.32",
+          "greek": "στομάτων",
+          "lemma": "στόμα",
+          "transliteration": "stomatōn",
+          "strongs": "G4750",
+          "morphologyCode": "N-GPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.33",
+          "greek": "αὐτῶν",
+          "lemma": "αὐτός",
+          "transliteration": "autōn",
+          "strongs": "G846",
+          "morphologyCode": "P-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.34",
+          "greek": "ἐκπορεύεται",
+          "lemma": "ἐκπορεύω",
+          "transliteration": "ekporeuetai",
+          "strongs": "G1607",
+          "morphologyCode": "V-PNI-3S",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.35",
+          "greek": "πῦρ",
+          "lemma": "πῦρ",
+          "transliteration": "pyr",
+          "strongs": "G4442",
+          "morphologyCode": "N-NSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.36",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.37",
+          "greek": "καπνὸς",
+          "lemma": "καπνός",
+          "transliteration": "kapnos",
+          "strongs": "G2586",
+          "morphologyCode": "N-NSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.38",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.17.39",
+          "greek": "θεῖον",
+          "lemma": "θεῖον",
+          "transliteration": "theion",
+          "strongs": "G2303",
+          "morphologyCode": "N-NSN",
+          "punctuationBefore": "",
+          "punctuationAfter": "."
+        }
+      ]
+    },
+    {
+      "verse": 18,
+      "tokens": [
+        {
+          "id": "REV.9.18.1",
+          "greek": "ἀπὸ",
+          "lemma": "ἀπό",
+          "transliteration": "apo",
+          "strongs": "G575",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.2",
+          "greek": "τῶν",
+          "lemma": "ὁ",
+          "transliteration": "tōn",
+          "strongs": "G3588",
+          "morphologyCode": "T-GPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.3",
+          "greek": "τριῶν",
+          "lemma": "τρεῖς, τρία",
+          "transliteration": "triōn",
+          "strongs": "G5140",
+          "morphologyCode": "A-GPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.4",
+          "greek": "πληγῶν",
+          "lemma": "πληγή",
+          "transliteration": "plēgōn",
+          "strongs": "G4127",
+          "morphologyCode": "N-GPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.5",
+          "greek": "τούτων",
+          "lemma": "οὗτος",
+          "transliteration": "toutōn",
+          "strongs": "G3778",
+          "morphologyCode": "D-GPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.6",
+          "greek": "ἀπεκτάνθησαν",
+          "lemma": "ἀποκτείνω",
+          "transliteration": "apektanthēsan",
+          "strongs": "G615",
+          "morphologyCode": "V-API-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.7",
+          "greek": "τὸ",
+          "lemma": "ὁ",
+          "transliteration": "to",
+          "strongs": "G3588",
+          "morphologyCode": "T-NSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.8",
+          "greek": "τρίτον",
+          "lemma": "τρίτος",
+          "transliteration": "triton",
+          "strongs": "G5154",
+          "morphologyCode": "A-NSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.9",
+          "greek": "τῶν",
+          "lemma": "ὁ",
+          "transliteration": "tōn",
+          "strongs": "G3588",
+          "morphologyCode": "T-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.10",
+          "greek": "ἀνθρώπων",
+          "lemma": "ἄνθρωπος",
+          "transliteration": "anthrōpōn",
+          "strongs": "G444",
+          "morphologyCode": "N-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.18.11",
+          "greek": "ἐκ",
+          "lemma": "ἐκ",
+          "transliteration": "ek",
+          "strongs": "G1537",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.12",
+          "greek": "τοῦ",
+          "lemma": "ὁ",
+          "transliteration": "tou",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.13",
+          "greek": "πυρὸς",
+          "lemma": "πῦρ",
+          "transliteration": "pyros",
+          "strongs": "G4442",
+          "morphologyCode": "N-GSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.14",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.15",
+          "greek": "τοῦ",
+          "lemma": "ὁ",
+          "transliteration": "tou",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.16",
+          "greek": "καπνοῦ",
+          "lemma": "καπνός",
+          "transliteration": "kapnou",
+          "strongs": "G2586",
+          "morphologyCode": "N-GSM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.17",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.18",
+          "greek": "τοῦ",
+          "lemma": "ὁ",
+          "transliteration": "tou",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.19",
+          "greek": "θείου",
+          "lemma": "θεῖον",
+          "transliteration": "theiou",
+          "strongs": "G2303",
+          "morphologyCode": "N-GSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.20",
+          "greek": "τοῦ",
+          "lemma": "ὁ",
+          "transliteration": "tou",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.21",
+          "greek": "ἐκπορευομένου",
+          "lemma": "ἐκπορεύω",
+          "transliteration": "ekporeuomenou",
+          "strongs": "G1607",
+          "morphologyCode": "V-PNP-GSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.22",
+          "greek": "ἐκ",
+          "lemma": "ἐκ",
+          "transliteration": "ek",
+          "strongs": "G1537",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.23",
+          "greek": "τῶν",
+          "lemma": "ὁ",
+          "transliteration": "tōn",
+          "strongs": "G3588",
+          "morphologyCode": "T-GPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.24",
+          "greek": "στομάτων",
+          "lemma": "στόμα",
+          "transliteration": "stomatōn",
+          "strongs": "G4750",
+          "morphologyCode": "N-GPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.18.25",
+          "greek": "αὐτῶν",
+          "lemma": "αὐτός",
+          "transliteration": "autōn",
+          "strongs": "G846",
+          "morphologyCode": "P-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": "."
+        }
+      ]
+    },
+    {
+      "verse": 19,
+      "tokens": [
+        {
+          "id": "REV.9.19.1",
+          "greek": "ἡ",
+          "lemma": "ὁ",
+          "transliteration": "hē",
+          "strongs": "G3588",
+          "morphologyCode": "T-NSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.2",
+          "greek": "γὰρ",
+          "lemma": "γάρ",
+          "transliteration": "gar",
+          "strongs": "G1063",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.3",
+          "greek": "ἐξουσία",
+          "lemma": "ἐξουσία",
+          "transliteration": "exousia",
+          "strongs": "G1849",
+          "morphologyCode": "N-NSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.4",
+          "greek": "τῶν",
+          "lemma": "ὁ",
+          "transliteration": "tōn",
+          "strongs": "G3588",
+          "morphologyCode": "T-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.5",
+          "greek": "ἵππων",
+          "lemma": "ἵππος",
+          "transliteration": "hippōn",
+          "strongs": "G2462",
+          "morphologyCode": "N-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.6",
+          "greek": "ἐν",
+          "lemma": "ἐν",
+          "transliteration": "en",
+          "strongs": "G1722",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.7",
+          "greek": "τῷ",
+          "lemma": "ὁ",
+          "transliteration": "tō",
+          "strongs": "G3588",
+          "morphologyCode": "T-DSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.8",
+          "greek": "στόματι",
+          "lemma": "στόμα",
+          "transliteration": "stomati",
+          "strongs": "G4750",
+          "morphologyCode": "N-DSN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.9",
+          "greek": "αὐτῶν",
+          "lemma": "αὐτός",
+          "transliteration": "autōn",
+          "strongs": "G846",
+          "morphologyCode": "P-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.10",
+          "greek": "ἐστιν",
+          "lemma": "εἰμί",
+          "transliteration": "estin",
+          "strongs": "G1510",
+          "morphologyCode": "V-PAI-3S",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.11",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.12",
+          "greek": "ἐν",
+          "lemma": "ἐν",
+          "transliteration": "en",
+          "strongs": "G1722",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.13",
+          "greek": "ταῖς",
+          "lemma": "ὁ",
+          "transliteration": "tais",
+          "strongs": "G3588",
+          "morphologyCode": "T-DPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.14",
+          "greek": "οὐραῖς",
+          "lemma": "οὐρά",
+          "transliteration": "ourais",
+          "strongs": "G3769",
+          "morphologyCode": "N-DPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.15",
+          "greek": "αὐτῶν",
+          "lemma": "αὐτός",
+          "transliteration": "autōn",
+          "strongs": "G846",
+          "morphologyCode": "P-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.19.16",
+          "greek": "αἱ",
+          "lemma": "ὁ",
+          "transliteration": "hai",
+          "strongs": "G3588",
+          "morphologyCode": "T-NPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.17",
+          "greek": "γὰρ",
+          "lemma": "γάρ",
+          "transliteration": "gar",
+          "strongs": "G1063",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.18",
+          "greek": "οὐραὶ",
+          "lemma": "οὐρά",
+          "transliteration": "ourai",
+          "strongs": "G3769",
+          "morphologyCode": "N-NPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.19",
+          "greek": "αὐτῶν",
+          "lemma": "αὐτός",
+          "transliteration": "autōn",
+          "strongs": "G846",
+          "morphologyCode": "P-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.20",
+          "greek": "ὅμοιαι",
+          "lemma": "ὅμοιος",
+          "transliteration": "homoiai",
+          "strongs": "G3664",
+          "morphologyCode": "A-NPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.21",
+          "greek": "ὄφεσιν",
+          "lemma": "ὄφις",
+          "transliteration": "ophesin",
+          "strongs": "G3789",
+          "morphologyCode": "N-DPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.19.22",
+          "greek": "ἔχουσαι",
+          "lemma": "ἔχω",
+          "transliteration": "echousai",
+          "strongs": "G2192",
+          "morphologyCode": "V-PAP-NPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.23",
+          "greek": "κεφαλάς",
+          "lemma": "κεφαλή",
+          "transliteration": "kephalas",
+          "strongs": "G2776",
+          "morphologyCode": "N-APF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.24",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.25",
+          "greek": "ἐν",
+          "lemma": "ἐν",
+          "transliteration": "en",
+          "strongs": "G1722",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.26",
+          "greek": "αὐταῖς",
+          "lemma": "αὐτός",
+          "transliteration": "autais",
+          "strongs": "G846",
+          "morphologyCode": "P-DPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.19.27",
+          "greek": "ἀδικοῦσιν",
+          "lemma": "ἀδικέω",
+          "transliteration": "adikousin",
+          "strongs": "G91",
+          "morphologyCode": "V-PAI-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": "."
+        }
+      ]
+    },
+    {
+      "verse": 20,
+      "tokens": [
+        {
+          "id": "REV.9.20.1",
+          "greek": "Καὶ",
+          "lemma": "καί",
+          "transliteration": "Kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.2",
+          "greek": "οἱ",
+          "lemma": "ὁ",
+          "transliteration": "hoi",
+          "strongs": "G3588",
+          "morphologyCode": "T-NPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.3",
+          "greek": "λοιποὶ",
+          "lemma": "λοιπός",
+          "transliteration": "loipoi",
+          "strongs": "G3062",
+          "morphologyCode": "A-NPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.4",
+          "greek": "τῶν",
+          "lemma": "ὁ",
+          "transliteration": "tōn",
+          "strongs": "G3588",
+          "morphologyCode": "T-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.5",
+          "greek": "ἀνθρώπων",
+          "lemma": "ἄνθρωπος",
+          "transliteration": "anthrōpōn",
+          "strongs": "G444",
+          "morphologyCode": "N-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.20.6",
+          "greek": "οἳ",
+          "lemma": "ὅς, ἥ",
+          "transliteration": "hoi",
+          "strongs": "G3739",
+          "morphologyCode": "R-NPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.7",
+          "greek": "οὐκ",
+          "lemma": "οὐ",
+          "transliteration": "ouk",
+          "strongs": "G3756",
+          "morphologyCode": "PRT-N",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.8",
+          "greek": "ἀπεκτάνθησαν",
+          "lemma": "ἀποκτείνω",
+          "transliteration": "apektanthēsan",
+          "strongs": "G615",
+          "morphologyCode": "V-API-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.9",
+          "greek": "ἐν",
+          "lemma": "ἐν",
+          "transliteration": "en",
+          "strongs": "G1722",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.10",
+          "greek": "ταῖς",
+          "lemma": "ὁ",
+          "transliteration": "tais",
+          "strongs": "G3588",
+          "morphologyCode": "T-DPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.11",
+          "greek": "πληγαῖς",
+          "lemma": "πληγή",
+          "transliteration": "plēgais",
+          "strongs": "G4127",
+          "morphologyCode": "N-DPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.12",
+          "greek": "ταύταις",
+          "lemma": "οὗτος",
+          "transliteration": "tautais",
+          "strongs": "G3778",
+          "morphologyCode": "D-DPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.20.13",
+          "greek": "οὐδὲ",
+          "lemma": "οὐδέ",
+          "transliteration": "oude",
+          "strongs": "G3761",
+          "morphologyCode": "CONJ-N",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.14",
+          "greek": "μετενόησαν",
+          "lemma": "μετανοέω",
+          "transliteration": "metenoēsan",
+          "strongs": "G3340",
+          "morphologyCode": "V-AAI-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.15",
+          "greek": "ἐκ",
+          "lemma": "ἐκ",
+          "transliteration": "ek",
+          "strongs": "G1537",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.16",
+          "greek": "τῶν",
+          "lemma": "ὁ",
+          "transliteration": "tōn",
+          "strongs": "G3588",
+          "morphologyCode": "T-GPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.17",
+          "greek": "ἔργων",
+          "lemma": "ἔργον",
+          "transliteration": "ergōn",
+          "strongs": "G2041",
+          "morphologyCode": "N-GPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.18",
+          "greek": "τῶν",
+          "lemma": "ὁ",
+          "transliteration": "tōn",
+          "strongs": "G3588",
+          "morphologyCode": "T-GPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.19",
+          "greek": "χειρῶν",
+          "lemma": "χείρ",
+          "transliteration": "cheirōn",
+          "strongs": "G5495",
+          "morphologyCode": "N-GPF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.20",
+          "greek": "αὐτῶν",
+          "lemma": "αὐτός",
+          "transliteration": "autōn",
+          "strongs": "G846",
+          "morphologyCode": "P-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.20.21",
+          "greek": "ἵνα",
+          "lemma": "ἵνα",
+          "transliteration": "hina",
+          "strongs": "G2443",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.22",
+          "greek": "μὴ",
+          "lemma": "μή",
+          "transliteration": "mē",
+          "strongs": "G3361",
+          "morphologyCode": "PRT-N",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.23",
+          "greek": "προσκυνήσουσιν",
+          "lemma": "προσκυνέω",
+          "transliteration": "proskynēsousin",
+          "strongs": "G4352",
+          "morphologyCode": "V-FAI-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.24",
+          "greek": "τὰ",
+          "lemma": "ὁ",
+          "transliteration": "ta",
+          "strongs": "G3588",
+          "morphologyCode": "T-APN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.25",
+          "greek": "δαιμόνια",
+          "lemma": "δαιμόνιον",
+          "transliteration": "daimonia",
+          "strongs": "G1140",
+          "morphologyCode": "N-APN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.26",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.27",
+          "greek": "τὰ",
+          "lemma": "ὁ",
+          "transliteration": "ta",
+          "strongs": "G3588",
+          "morphologyCode": "T-APN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.28",
+          "greek": "εἴδωλα",
+          "lemma": "εἴδωλον",
+          "transliteration": "eidōla",
+          "strongs": "G1497",
+          "morphologyCode": "N-APN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.29",
+          "greek": "τὰ",
+          "lemma": "ὁ",
+          "transliteration": "ta",
+          "strongs": "G3588",
+          "morphologyCode": "T-APN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.30",
+          "greek": "χρυσᾶ",
+          "lemma": "χρύσεος",
+          "transliteration": "chrysa",
+          "strongs": "G5552",
+          "morphologyCode": "A-APN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.31",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.32",
+          "greek": "τὰ",
+          "lemma": "ὁ",
+          "transliteration": "ta",
+          "strongs": "G3588",
+          "morphologyCode": "T-APN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.33",
+          "greek": "ἀργυρᾶ",
+          "lemma": "ἀργύρεος",
+          "transliteration": "argyra",
+          "strongs": "G693",
+          "morphologyCode": "A-APN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.34",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.35",
+          "greek": "τὰ",
+          "lemma": "ὁ",
+          "transliteration": "ta",
+          "strongs": "G3588",
+          "morphologyCode": "T-APN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.36",
+          "greek": "χαλκᾶ",
+          "lemma": "χάλκεος",
+          "transliteration": "chalka",
+          "strongs": "G5470",
+          "morphologyCode": "A-APN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.37",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.38",
+          "greek": "τὰ",
+          "lemma": "ὁ",
+          "transliteration": "ta",
+          "strongs": "G3588",
+          "morphologyCode": "T-APN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.39",
+          "greek": "λίθινα",
+          "lemma": "λίθινος",
+          "transliteration": "lithina",
+          "strongs": "G3035",
+          "morphologyCode": "A-APN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.40",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.41",
+          "greek": "τὰ",
+          "lemma": "ὁ",
+          "transliteration": "ta",
+          "strongs": "G3588",
+          "morphologyCode": "T-APN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.42",
+          "greek": "ξύλινα",
+          "lemma": "ξύλινος",
+          "transliteration": "xylina",
+          "strongs": "G3585",
+          "morphologyCode": "A-APN",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        },
+        {
+          "id": "REV.9.20.43",
+          "greek": "ἃ",
+          "lemma": "ὅς, ἥ",
+          "transliteration": "ha",
+          "strongs": "G3739",
+          "morphologyCode": "R-NPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.44",
+          "greek": "οὔτε",
+          "lemma": "οὔτε",
+          "transliteration": "oute",
+          "strongs": "G3777",
+          "morphologyCode": "CONJ-N",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.45",
+          "greek": "βλέπειν",
+          "lemma": "βλέπω",
+          "transliteration": "blepein",
+          "strongs": "G991",
+          "morphologyCode": "V-PAN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.46",
+          "greek": "δύνανται",
+          "lemma": "δύναμαι",
+          "transliteration": "dynantai",
+          "strongs": "G1410",
+          "morphologyCode": "V-PNI-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.47",
+          "greek": "οὔτε",
+          "lemma": "οὔτε",
+          "transliteration": "oute",
+          "strongs": "G3777",
+          "morphologyCode": "CONJ-N",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.48",
+          "greek": "ἀκούειν",
+          "lemma": "ἀκούω",
+          "transliteration": "akouein",
+          "strongs": "G191",
+          "morphologyCode": "V-PAN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.49",
+          "greek": "οὔτε",
+          "lemma": "οὔτε",
+          "transliteration": "oute",
+          "strongs": "G3777",
+          "morphologyCode": "CONJ-N",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.20.50",
+          "greek": "περιπατεῖν",
+          "lemma": "περιπατέω",
+          "transliteration": "peripatein",
+          "strongs": "G4043",
+          "morphologyCode": "V-PAN",
+          "punctuationBefore": "",
+          "punctuationAfter": ","
+        }
+      ]
+    },
+    {
+      "verse": 21,
+      "tokens": [
+        {
+          "id": "REV.9.21.1",
+          "greek": "καὶ",
+          "lemma": "καί",
+          "transliteration": "kai",
+          "strongs": "G2532",
+          "morphologyCode": "CONJ",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.21.2",
+          "greek": "οὐ",
+          "lemma": "οὐ",
+          "transliteration": "ou",
+          "strongs": "G3756",
+          "morphologyCode": "PRT-N",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.21.3",
+          "greek": "μετενόησαν",
+          "lemma": "μετανοέω",
+          "transliteration": "metenoēsan",
+          "strongs": "G3340",
+          "morphologyCode": "V-AAI-3P",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.21.4",
+          "greek": "ἐκ",
+          "lemma": "ἐκ",
+          "transliteration": "ek",
+          "strongs": "G1537",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.21.5",
+          "greek": "τῶν",
+          "lemma": "ὁ",
+          "transliteration": "tōn",
+          "strongs": "G3588",
+          "morphologyCode": "T-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.21.6",
+          "greek": "φόνων",
+          "lemma": "φόνος",
+          "transliteration": "phonōn",
+          "strongs": "G5408",
+          "morphologyCode": "N-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.21.7",
+          "greek": "αὐτῶν",
+          "lemma": "αὐτός",
+          "transliteration": "autōn",
+          "strongs": "G846",
+          "morphologyCode": "P-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.21.8",
+          "greek": "οὔτε",
+          "lemma": "οὔτε",
+          "transliteration": "oute",
+          "strongs": "G3777",
+          "morphologyCode": "CONJ-N",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.21.9",
+          "greek": "ἐκ",
+          "lemma": "ἐκ",
+          "transliteration": "ek",
+          "strongs": "G1537",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.21.10",
+          "greek": "τῶν",
+          "lemma": "ὁ",
+          "transliteration": "tōn",
+          "strongs": "G3588",
+          "morphologyCode": "T-GPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.21.11",
+          "greek": "φαρμάκων",
+          "lemma": "φάρμακος",
+          "transliteration": "pharmakōn",
+          "strongs": "G5333",
+          "morphologyCode": "N-GPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.21.12",
+          "greek": "αὐτῶν",
+          "lemma": "αὐτός",
+          "transliteration": "autōn",
+          "strongs": "G846",
+          "morphologyCode": "P-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.21.13",
+          "greek": "οὔτε",
+          "lemma": "οὔτε",
+          "transliteration": "oute",
+          "strongs": "G3777",
+          "morphologyCode": "CONJ-N",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.21.14",
+          "greek": "ἐκ",
+          "lemma": "ἐκ",
+          "transliteration": "ek",
+          "strongs": "G1537",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.21.15",
+          "greek": "τῆς",
+          "lemma": "ὁ",
+          "transliteration": "tēs",
+          "strongs": "G3588",
+          "morphologyCode": "T-GSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.21.16",
+          "greek": "πορνείας",
+          "lemma": "πορνεία",
+          "transliteration": "porneias",
+          "strongs": "G4202",
+          "morphologyCode": "N-GSF",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.21.17",
+          "greek": "αὐτῶν",
+          "lemma": "αὐτός",
+          "transliteration": "autōn",
+          "strongs": "G846",
+          "morphologyCode": "P-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.21.18",
+          "greek": "οὔτε",
+          "lemma": "οὔτε",
+          "transliteration": "oute",
+          "strongs": "G3777",
+          "morphologyCode": "CONJ-N",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.21.19",
+          "greek": "ἐκ",
+          "lemma": "ἐκ",
+          "transliteration": "ek",
+          "strongs": "G1537",
+          "morphologyCode": "PREP",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.21.20",
+          "greek": "τῶν",
+          "lemma": "ὁ",
+          "transliteration": "tōn",
+          "strongs": "G3588",
+          "morphologyCode": "T-GPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.21.21",
+          "greek": "κλεμμάτων",
+          "lemma": "κλέμμα",
+          "transliteration": "klemmatōn",
+          "strongs": "G2809",
+          "morphologyCode": "N-GPN",
+          "punctuationBefore": "",
+          "punctuationAfter": ""
+        },
+        {
+          "id": "REV.9.21.22",
+          "greek": "αὐτῶν",
+          "lemma": "αὐτός",
+          "transliteration": "autōn",
+          "strongs": "G846",
+          "morphologyCode": "P-GPM",
+          "punctuationBefore": "",
+          "punctuationAfter": "."
+        }
+      ]
+    }
+  ]
+}

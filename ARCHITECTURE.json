@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "runtime": {
+    "framework": "Next.js / React",
+    "networkNeededForScripture": false,
+    "frequencyCalculatedAtRuntime": false,
+    "dataLoaded": "compiled chapter JSON"
+  },
+  "buildTime": {
+    "language": "Python standard library",
+    "canonicalInput": "pinned local OpenGNT v3 CSV",
+    "checksum": "SHA-256 verified against SOURCE_MANIFEST.json",
+    "derived": [
+      "Greek occurrence stream",
+      "contextual Berean-derived English stream",
+      "full-NT lemma frequency table",
+      "compiled chapter files"
+    ]
+  },
+  "currentCompiledTarget": "1 John 1:1-10",
+  "startingThreshold": 50
+}
