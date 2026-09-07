@@ -23,11 +23,6 @@ export default function SiteHeader() {
           >
             LAB
           </span>
-
-          <span>
-            <strong>LAB</strong>
-            <small>Literacy Adaptive Bridge</small>
-          </span>
         </Link>
 
         <nav
