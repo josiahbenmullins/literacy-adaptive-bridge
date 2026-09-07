@@ -96,7 +96,7 @@ export default function LABHomePage() {
         </div>
 
         <div className="lab-product-grid">
-          <Link href="/products/gnt" className="lab-product-card featured">
+          <Link href="https://gnt.literacyadaptivebridge.com" className="lab-product-card featured">
             <span className="lab-product-code">GNT</span>
 
             <div>

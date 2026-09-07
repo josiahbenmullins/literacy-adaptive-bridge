@@ -46,6 +46,15 @@ export default function SiteHeader() {
           </Link>
 
           <Link
+            href="/settings"
+            className="nav-link settings-link"
+            aria-label="Settings"
+            title="Settings"
+          >
+            <span aria-hidden="true">⚙︎</span>
+          </Link>
+
+          <Link
             href="/account"
             className="nav-link account-link"
             aria-label={

@@ -2974,3 +2974,72 @@ html[data-theme="dark"] .gnt-product-access-summary > div {
     display: none;
   }
 }
+
+.lab-settings-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  padding: 24px;
+  border: 1px solid rgba(120, 113, 108, 0.2);
+  border-radius: 16px;
+  background: rgba(255, 253, 249, 0.78);
+}
+
+.lab-settings-card h2 {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.lab-settings-card p {
+  max-width: 520px;
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+
+.lab-theme-options {
+  display: flex;
+  gap: 8px;
+}
+
+.lab-theme-button {
+  min-width: 78px;
+  padding: 9px 13px;
+  border: 1px solid rgba(120, 113, 108, 0.28);
+  border-radius: 10px;
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.lab-theme-button.active {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.lab-product-facts {
+  font-weight: 700;
+}
+
+.lab-product-basic-copy {
+  opacity: 0.8;
+}
+
+html[data-theme="dark"] .lab-settings-card {
+  border-color: rgba(231, 229, 228, 0.16);
+  background: rgba(28, 25, 23, 0.72);
+}
+
+@media (max-width: 640px) {
+  .lab-settings-card {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
