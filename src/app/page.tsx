@@ -85,7 +85,7 @@ export default function LABHomePage() {
 
         <article className="lab-feature-card">
           <div className="eyebrow">03 · BRIDGE THE GAP</div>
-          <h3>Let the help fade</h3>
+          <h3>Advance into the language</h3>
           <p>
             As your familiarity with the vocabulary and text grows, increase
             the difficulty. More of the target language remains visible and
