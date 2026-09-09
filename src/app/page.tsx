@@ -22,10 +22,9 @@ export default function LABHomePage() {
           <div className="lab-hero-title">
             <div className="eyebrow">LITERACY ADAPTIVE BRIDGE</div>
 
-            <h1>
-              Read the original language
-              <br />
-              at your level.
+            <h1 className="lab-hero-headline">
+              <span>Start reading today;</span>
+              <span>build literacy as you go.</span>
             </h1>
           </div>
         </div>
