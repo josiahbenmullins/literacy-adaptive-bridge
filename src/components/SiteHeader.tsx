@@ -21,7 +21,7 @@ export default function SiteHeader() {
             className="brand-mark lab-brand-mark"
             aria-hidden="true"
           >
-            LAB
+            <img src="/lab-symbol.png" alt="" />
           </span>
         </Link>
 
