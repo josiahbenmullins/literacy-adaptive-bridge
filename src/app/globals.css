@@ -3261,3 +3261,32 @@ html[data-theme="dark"] .lab-principle p {
     font-size: 1.25rem;
   }
 }
+
+.lab-primary-link {
+  border: 1px solid #cfc8bd;
+  background: #fffdf9;
+  color: #292524;
+  box-shadow: 0 2px 8px rgba(28, 25, 23, 0.07);
+  transition:
+    background-color 120ms ease,
+    border-color 120ms ease,
+    transform 120ms ease;
+}
+
+.lab-primary-link:hover {
+  border-color: #a8a29e;
+  background: #f3eee4;
+  transform: translateY(-1px);
+}
+
+html[data-theme="dark"] .lab-primary-link {
+  border-color: #5c554d;
+  background: #24211d;
+  color: #f1ece3;
+  box-shadow: none;
+}
+
+html[data-theme="dark"] .lab-primary-link:hover {
+  border-color: #7a7168;
+  background: #2d2924;
+}

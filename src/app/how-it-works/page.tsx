@@ -25,8 +25,8 @@ export default function HowItWorksPage() {
 
             <p>
               Use the reading-level slider to choose how much of the text
-              appears in the target language and how much receives
-              native-language support.
+              appears in the original language and how much appears in
+              English.
             </p>
 
             <p>

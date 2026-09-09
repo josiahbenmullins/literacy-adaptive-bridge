@@ -37,7 +37,7 @@ export default function LABHomePage() {
             Explore Products
           </Link>
 
-          <Link href="/how-it-works" className="lab-secondary-link">
+          <Link href="/how-it-works" className="lab-primary-link">
             How LAB Works
           </Link>
         </div>
