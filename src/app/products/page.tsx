@@ -25,18 +25,22 @@ export default function ProductsPage() {
           className="lab-product-library-card active"
         >
           <div className="lab-product-code large">
-            GNT
+            <img
+              src="/gnt-lab-symbol.png"
+              alt=""
+              className="lab-product-symbol"
+            />
           </div>
 
           <div>
             <div className="eyebrow">
-              AVAILABLE NOW
+              GREEK NEW TESTAMENT
             </div>
 
             <h2>GNT LAB</h2>
 
             <p className="lab-product-facts">
-              Greek New Testament · 27 books · 260 chapters
+              27 books · 260 chapters
             </p>
 
             <p>
@@ -52,42 +56,76 @@ export default function ProductsPage() {
 
             <span>Open GNT LAB →</span>
           </div>
+
+          <span className="lab-product-status available">
+            AVAILABLE
+          </span>
         </a>
 
         <article className="lab-product-library-card">
           <div className="lab-product-code large">LXX</div>
 
           <div>
-            <div className="eyebrow">PLANNED</div>
+            <div className="eyebrow">SEPTUAGINT</div>
             <h2>LXX LAB</h2>
             <p>
-              Adaptive reading of the Greek Septuagint.
+              Adaptive reading of the ancient Greek translation of
+              the Hebrew Scriptures.
             </p>
           </div>
+
+          <span className="lab-product-status">
+            COMING SOON
+          </span>
         </article>
 
         <article className="lab-product-library-card">
           <div className="lab-product-code large">ΙΛ</div>
 
           <div>
-            <div className="eyebrow">PLANNED</div>
+            <div className="eyebrow">HOMER'S ILIAD</div>
             <h2>Iliad LAB</h2>
             <p>
-              Adaptive reading of Homer's Iliad.
+              Adaptive reading of Homer&apos;s Iliad in ancient Greek.
             </p>
           </div>
+
+          <span className="lab-product-status">
+            COMING SOON
+          </span>
         </article>
 
         <article className="lab-product-library-card">
           <div className="lab-product-code large">ΟΔ</div>
 
           <div>
-            <div className="eyebrow">PLANNED</div>
+            <div className="eyebrow">HOMER'S ODYSSEY</div>
             <h2>Odyssey LAB</h2>
             <p>
-              Adaptive reading of Homer's Odyssey.
+              Adaptive reading of Homer&apos;s Odyssey in ancient Greek.
             </p>
           </div>
+
+          <span className="lab-product-status">
+            COMING SOON
+          </span>
+        </article>
+
+        <article className="lab-product-library-card">
+          <div className="lab-product-code large">AF</div>
+
+          <div>
+            <div className="eyebrow">APOSTOLIC FATHERS</div>
+            <h2>Apostolic Fathers LAB</h2>
+            <p>
+              Adaptive reading of the early Christian Greek writings
+              traditionally collected as the Apostolic Fathers.
+            </p>
+          </div>
+
+          <span className="lab-product-status">
+            COMING SOON
+          </span>
         </article>
 
       </div>
