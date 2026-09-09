@@ -3230,3 +3230,34 @@ html[data-theme="dark"] .lab-principle p {
     justify-self: center;
   }
 }
+
+.lab-feature-card {
+  padding: 2rem;
+  min-height: 220px;
+}
+
+.lab-feature-card h3 {
+  font-size: 1.35rem;
+  margin-bottom: 0.8rem;
+}
+
+.lab-feature-card p {
+  font-size: 0.98rem;
+  line-height: 1.65;
+}
+
+.lab-feature-card .eyebrow {
+  font-size: 0.78rem;
+  margin-bottom: 0.7rem;
+}
+
+@media (max-width: 760px) {
+  .lab-feature-card {
+    padding: 1.6rem;
+    min-height: auto;
+  }
+
+  .lab-feature-card h3 {
+    font-size: 1.25rem;
+  }
+}
