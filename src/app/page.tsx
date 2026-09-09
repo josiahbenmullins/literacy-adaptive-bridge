@@ -11,13 +11,24 @@ export default function LABHomePage() {
     <main className="app-shell lab-home">
 
       <section className="lab-hero">
-        <div className="eyebrow">LITERACY ADAPTIVE BRIDGE</div>
+        <div className="lab-hero-lockup">
+          <div className="lab-hero-emblem">
+            <img
+              src="/lab-symbol.png"
+              alt="Literacy Adaptive Bridge emblem"
+            />
+          </div>
 
-        <h1>
-          Read the original language
-          <br />
-          at your level.
-        </h1>
+          <div className="lab-hero-title">
+            <div className="eyebrow">LITERACY ADAPTIVE BRIDGE</div>
+
+            <h1>
+              Read the original language
+              <br />
+              at your level.
+            </h1>
+          </div>
+        </div>
 
         <p>
           LAB is an adaptive reading platform designed to bridge the gap
@@ -36,49 +47,52 @@ export default function LABHomePage() {
       </section>
 
       <section className="lab-principle">
-        <div className="eyebrow">THE IDEA</div>
-
-        <h2>The text stays. The help adapts.</h2>
+        <h2>The idea: Learn while you read.</h2>
 
         <p>
-          LAB preserves the structure of the original-language text while
-          providing native-language lexical support only where the reader
-          needs it.
+          The LAB philosophy is simple: get students reading today and build
+          vocabulary along the way.
         </p>
 
         <p>
-          As your vocabulary grows, that support recedes. Instead of moving
-          between an original text and a translation, you progressively read
-          more of the original text itself.
+          Syntax, structure, and usage are learned from the text itself, where
+          the language is actually being used.
+        </p>
+
+        <p>
+          Rather than trying to learn the language before they read, LAB helps
+          students learn while they read.
         </p>
       </section>
 
       <section className="lab-feature-grid">
         <article className="lab-feature-card">
-          <div className="eyebrow">01 · ORIGINAL TEXT</div>
-          <h3>Preserve the language</h3>
+          <div className="eyebrow">01 · SET YOUR LEVEL</div>
+          <h3>Choose where you begin</h3>
           <p>
-            Word order and the underlying target-language text remain stable.
-            The reader adapts without replacing the text with a conventional
-            translation.
+            Use the reading-level slider to choose how much of the text
+            appears in the target language and how much receives
+            native-language support.
           </p>
         </article>
 
         <article className="lab-feature-card">
-          <div className="eyebrow">02 · ADAPTIVE SUPPORT</div>
-          <h3>Help where you need it</h3>
+          <div className="eyebrow">02 · READ &amp; ADAPT</div>
+          <h3>Make the reader yours</h3>
           <p>
-            Vocabulary frequency and your own selections determine which
-            words receive native-language support.
+            Start reading immediately. As you encounter words, manually mark
+            what you know and what still needs support so LAB adapts to your
+            actual ability.
           </p>
         </article>
 
         <article className="lab-feature-card">
-          <div className="eyebrow">03 · GROWTH</div>
-          <h3>Read more over time</h3>
+          <div className="eyebrow">03 · BRIDGE THE GAP</div>
+          <h3>Let the help fade</h3>
           <p>
-            As words become familiar, the bridge disappears and more of the
-            original language remains visible.
+            As your familiarity with the vocabulary and text grows, increase
+            the difficulty. More of the target language remains visible and
+            less support is needed.
           </p>
         </article>
       </section>
@@ -97,7 +111,13 @@ export default function LABHomePage() {
 
         <div className="lab-product-grid">
           <Link href="https://gnt.literacyadaptivebridge.com" className="lab-product-card featured">
-            <span className="lab-product-code">GNT</span>
+            <span className="lab-product-code">
+              <img
+                src="/gnt-lab-symbol.png"
+                alt=""
+                className="lab-product-symbol"
+              />
+            </span>
 
             <div>
               <h3>GNT LAB</h3>

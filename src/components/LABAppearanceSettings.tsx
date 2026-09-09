@@ -6,6 +6,23 @@ type AppearanceMode = "light" | "dark";
 
 const THEME_COOKIE_KEY = "lab-theme";
 
+const appearanceOptions: Array<{
+  value: AppearanceMode;
+  label: string;
+  description: string;
+}> = [
+  {
+    value: "light",
+    label: "Light",
+    description: "Warm paper background with dark text.",
+  },
+  {
+    value: "dark",
+    label: "Dark",
+    description: "Low-light reading with a charcoal background.",
+  },
+];
+
 function readTheme(): AppearanceMode {
   try {
     const match = document.cookie
@@ -46,9 +63,11 @@ function writeTheme(theme: AppearanceMode) {
 export default function LABAppearanceSettings() {
   const [appearance, setAppearanceState] =
     useState<AppearanceMode>("light");
+  const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
     setAppearanceState(readTheme());
+    setHydrated(true);
   }, []);
 
   function setAppearance(next: AppearanceMode) {
@@ -60,40 +79,51 @@ export default function LABAppearanceSettings() {
   }
 
   return (
-    <section className="lab-settings-card">
-      <div>
-        <div className="eyebrow">APPEARANCE</div>
-        <h2>Theme</h2>
-        <p>
-          Your appearance preference is shared with LAB products
-          on this browser.
-        </p>
+    <section className="settings-page-card" aria-labelledby="appearance-heading">
+      <div className="settings-section-head">
+        <div>
+          <div className="eyebrow">APPEARANCE</div>
+          <h2 id="appearance-heading">Theme</h2>
+          <p>Choose how Literacy Adaptive Bridge looks on this device.</p>
+        </div>
+
+        <span className="saved-state-label">Saved on this device</span>
       </div>
 
-      <div className="lab-theme-options">
-        <button
-          type="button"
-          onClick={() => setAppearance("light")}
-          className={
-            appearance === "light"
-              ? "lab-theme-button active"
-              : "lab-theme-button"
-          }
-        >
-          Light
-        </button>
+      <div className="appearance-options" role="radiogroup" aria-label="Theme">
+        {appearanceOptions.map((option) => {
+          const active = appearance === option.value;
 
-        <button
-          type="button"
-          onClick={() => setAppearance("dark")}
-          className={
-            appearance === "dark"
-              ? "lab-theme-button active"
-              : "lab-theme-button"
-          }
-        >
-          Dark
-        </button>
+          return (
+            <button
+              key={option.value}
+              type="button"
+              role="radio"
+              aria-checked={active}
+              className={`appearance-option ${active ? "active" : ""}`}
+              onClick={() => setAppearance(option.value)}
+              disabled={!hydrated}
+            >
+              <span
+                className={`appearance-preview ${option.value}`}
+                aria-hidden="true"
+              >
+                <i />
+                <b />
+                <em />
+              </span>
+
+              <span className="appearance-copy">
+                <strong>{option.label}</strong>
+                <small>{option.description}</small>
+              </span>
+
+              <span className="appearance-check" aria-hidden="true">
+                {active ? "✓" : ""}
+              </span>
+            </button>
+          );
+        })}
       </div>
     </section>
   );

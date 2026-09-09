@@ -9,12 +9,9 @@ export const metadata: Metadata = {
 export default function SettingsPage() {
   return (
     <main className="app-shell">
-      <section className="page-heading">
+      <section className="page-heading settings-page-heading">
         <div className="eyebrow">PREFERENCES</div>
         <h1>Settings</h1>
-        <p>
-          Preferences for Literacy Adaptive Bridge and your LAB products.
-        </p>
       </section>
 
       <LABAppearanceSettings />

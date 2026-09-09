@@ -3071,3 +3071,82 @@ html[data-theme="dark"] .lab-settings-card {
 .lab-product-status.available {
   opacity: 0.85;
 }
+
+.lab-theme-button.light-option {
+  background: #fffdf9;
+  color: #292524;
+  border-color: #d6d3d1;
+}
+
+.lab-theme-button.dark-option {
+  background: #1b1916;
+  color: #f1ece3;
+  border-color: #4a453f;
+}
+
+.lab-theme-button.light-option.active,
+.lab-theme-button.dark-option.active {
+  box-shadow: 0 0 0 2px rgba(120, 113, 108, 0.28);
+}
+
+.lab-theme-button.light-option.active {
+  border-color: #292524;
+}
+
+.lab-theme-button.dark-option.active {
+  border-color: #f1ece3;
+}
+
+.lab-hero-emblem {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 8px 24px rgba(28, 25, 23, 0.14);
+}
+
+.lab-hero-emblem img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 640px) {
+  .lab-hero-emblem {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1.25rem;
+  }
+}
+
+.lab-hero-lockup {
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+  align-items: center;
+  gap: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.lab-hero-emblem {
+  width: 320px;
+  height: 320px;
+  margin-bottom: 0;
+}
+
+.lab-hero-title h1 {
+  margin-top: 0.7rem;
+}
+
+@media (max-width: 760px) {
+  .lab-hero-lockup {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .lab-hero-emblem {
+    width: 220px;
+    height: 220px;
+  }
+}
