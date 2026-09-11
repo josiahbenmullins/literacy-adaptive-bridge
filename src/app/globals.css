@@ -3290,3 +3290,47 @@ html[data-theme="dark"] .lab-primary-link:hover {
   border-color: #7a7168;
   background: #2d2924;
 }
+
+.lab-product-category {
+  margin-top: 3rem;
+}
+
+.lab-product-category > .eyebrow {
+  margin-bottom: 1rem;
+}
+
+.lab-product-library-card.next-queue {
+  opacity: 0.92;
+  border-color: rgba(120, 113, 108, 0.3);
+}
+
+.lab-product-library-card.coming-soon {
+  opacity: 0.72;
+  filter: grayscale(0.12);
+}
+
+.lab-product-library-card.planned {
+  opacity: 0.46;
+  filter: grayscale(0.45);
+}
+
+.lab-product-status.next-queue-status {
+  opacity: 1;
+  font-weight: 900;
+}
+
+.lab-product-status.coming-soon-status {
+  opacity: 0.72;
+}
+
+html[data-theme="dark"] .lab-product-library-card.next-queue {
+  border-color: rgba(220, 214, 204, 0.28);
+}
+
+html[data-theme="dark"] .lab-product-library-card.coming-soon {
+  opacity: 0.7;
+}
+
+html[data-theme="dark"] .lab-product-library-card.planned {
+  opacity: 0.42;
+}

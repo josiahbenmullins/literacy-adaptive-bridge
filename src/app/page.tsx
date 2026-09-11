@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+import {
+  labProducts,
+  labProductStatusLabels,
+  labProductVisualStatus,
+} from "@/lib/lab-products";
 
 export const metadata: Metadata = {
   title: "Literacy Adaptive Bridge",
@@ -9,7 +14,6 @@ export const metadata: Metadata = {
 export default function LABHomePage() {
   return (
     <main className="app-shell lab-home">
-
       <section className="lab-hero">
         <div className="lab-hero-lockup">
           <div className="lab-hero-emblem">
@@ -68,8 +72,7 @@ export default function LABHomePage() {
           <h3>Choose where you begin</h3>
           <p>
             Use the reading-level slider to choose how much of the text
-            appears in the original language and how much appears in
-            English.
+            appears in the original language and how much appears in English.
           </p>
         </article>
 
@@ -88,8 +91,8 @@ export default function LABHomePage() {
           <h3>Advance into the language</h3>
           <p>
             As your familiarity with the vocabulary and text grows, increase
-            the difficulty. More of the target language remains visible and
-            less support is needed.
+            the difficulty. More of the original language remains visible and
+            less English is needed.
           </p>
         </article>
       </section>
@@ -107,51 +110,61 @@ export default function LABHomePage() {
         </div>
 
         <div className="lab-product-grid">
-          <Link href="https://gnt.literacyadaptivebridge.com" className="lab-product-card featured">
-            <span className="lab-product-code">
-              <img
-                src="/gnt-lab-symbol.png"
-                alt=""
-                className="lab-product-symbol"
-              />
-            </span>
+          {labProducts
+            .filter((product) => product.showOnHome)
+            .map((product) => {
+              const visualStatus = labProductVisualStatus(product.status);
 
-            <div>
-              <h3>GNT LAB</h3>
-              <p>Greek New Testament</p>
-              <span className="lab-product-state">Available</span>
-            </div>
-          </Link>
+              const content = (
+                <>
+                  <span className="lab-product-code">
+                    {product.emblem ? (
+                      <img
+                        src={product.emblem}
+                        alt=""
+                        className="lab-product-symbol"
+                      />
+                    ) : (
+                      product.code
+                    )}
+                  </span>
 
-          <div className="lab-product-card">
-            <span className="lab-product-code">LXX</span>
+                  <div>
+                    <h3>{product.name}</h3>
+                    <p>{product.corpus}</p>
 
-            <div>
-              <h3>LXX LAB</h3>
-              <p>Septuagint</p>
-              <span className="lab-product-state muted">Planned</span>
-            </div>
-          </div>
+                    <span
+                      className={`lab-product-state ${
+                        product.status === "available" ? "" : "muted"
+                      }`}
+                    >
+                      {labProductStatusLabels[product.status]}
+                    </span>
+                  </div>
+                </>
+              );
 
-          <div className="lab-product-card">
-            <span className="lab-product-code">ΙΛ</span>
+              if (product.url && product.status === "available") {
+                return (
+                  <a
+                    key={product.id}
+                    href={product.url}
+                    className="lab-product-card featured"
+                  >
+                    {content}
+                  </a>
+                );
+              }
 
-            <div>
-              <h3>Iliad LAB</h3>
-              <p>Homer's Iliad</p>
-              <span className="lab-product-state muted">Planned</span>
-            </div>
-          </div>
-
-          <div className="lab-product-card">
-            <span className="lab-product-code">ΟΔ</span>
-
-            <div>
-              <h3>Odyssey LAB</h3>
-              <p>Homer's Odyssey</p>
-              <span className="lab-product-state muted">Planned</span>
-            </div>
-          </div>
+              return (
+                <div
+                  key={product.id}
+                  className={`lab-product-card ${visualStatus}`}
+                >
+                  {content}
+                </div>
+              );
+            })}
         </div>
       </section>
     </main>
