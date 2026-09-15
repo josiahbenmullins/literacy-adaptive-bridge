@@ -146,7 +146,13 @@ export default function AccountPage() {
       ) : user ? (
         <div className="account-dashboard">
 
-          <section className="account-card account-identity-card">
+          <section
+            className={`account-card account-identity-card ${
+              hasGNTAccess
+                ? 'account-identity-pro'
+                : 'account-identity-free'
+            }`}
+          >
             <div className="account-card-heading">
               <div className="account-avatar">
                 <svg
@@ -157,7 +163,11 @@ export default function AccountPage() {
                   <path d="M4.5 21c.6-4.4 3.1-7 7.5-7s6.9 2.6 7.5 7" />
                 </svg>
 
-                <span className="account-avatar-check">
+                <span
+                  className={`account-avatar-check ${
+                    hasGNTAccess ? 'pro' : 'free'
+                  }`}
+                >
                   ✓
                 </span>
               </div>
@@ -195,7 +205,13 @@ export default function AccountPage() {
               </div>
             </div>
 
-            <article className="account-product-card">
+            <article
+              className={`account-product-card ${
+                hasGNTAccess
+                  ? 'account-product-card-pro'
+                  : 'account-product-card-free'
+              }`}
+            >
               <div className="account-product-main">
                 <div className="account-product-mark">
                   <img
@@ -216,23 +232,35 @@ export default function AccountPage() {
               <div className="account-product-status">
                 {hasGNTAccess ? (
                   <>
-                    <span className="account-status-badge active">
+                    <span className="account-status-badge pro">
                       <span aria-hidden="true">✓</span>
-                      GNT Access Active
+                      GNT LAB Pro
                     </span>
 
+                    <strong className="account-access-title">
+                      You have GNT LAB Pro access
+                    </strong>
+
                     <small>
-                      Complete Greek New Testament unlocked
+                      Full Greek New Testament access — all 27 books
+                      and all 260 chapters.
                     </small>
                   </>
                 ) : (
                   <>
-                    <span className="account-status-badge">
-                      Basic Access
+                    <span className="account-status-badge free">
+                      <span aria-hidden="true">✓</span>
+                      GNT LAB Free
                     </span>
 
+                    <strong className="account-access-title">
+                      You have GNT LAB Free access
+                    </strong>
+
                     <small>
-                      John 1–3 · Acts 1–3 · Romans 1–3
+                      Includes the complete Gospel of John plus
+                      chapters 1–3 of Matthew, Mark, Luke, Acts,
+                      and Romans.
                     </small>
                   </>
                 )}

@@ -5,9 +5,10 @@ import Link from "next/link";
 import { useLABAccess } from "@/components/LABAccessProvider";
 
 export default function SiteHeader() {
-  const { user, isLoading } = useLABAccess();
+  const { user, hasGNTAccess, isLoading } = useLABAccess();
 
   const signedIn = !isLoading && Boolean(user);
+  const accountTier = hasGNTAccess ? "pro" : "free";
 
   return (
     <header className="site-header lab-site-header">
@@ -75,7 +76,7 @@ export default function SiteHeader() {
 
               {signedIn && (
                 <span
-                  className="account-signed-in-badge"
+                  className={`account-signed-in-badge ${accountTier}`}
                   aria-hidden="true"
                 >
                   ✓

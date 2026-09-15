@@ -3334,3 +3334,86 @@ html[data-theme="dark"] .lab-product-library-card.coming-soon {
 html[data-theme="dark"] .lab-product-library-card.planned {
   opacity: 0.42;
 }
+
+
+/* LAB ACCOUNT GNT TIER SYNC */
+
+/* Header check mirrors GNT LAB */
+.account-signed-in-badge.free {
+  background: #34C759;
+}
+
+.account-signed-in-badge.pro {
+  background: #0A84FF;
+}
+
+/* Main account check mirrors GNT LAB */
+.account-avatar-check.free {
+  background: #34C759;
+}
+
+.account-avatar-check.pro {
+  background: #0A84FF;
+}
+
+/* Preserve existing LAB cards; add tier identity only */
+.account-identity-free {
+  border-color: rgba(52, 199, 89, 0.48);
+}
+
+.account-identity-pro {
+  border-color: rgba(10, 132, 255, 0.52);
+}
+
+.account-product-card-free {
+  border-color: rgba(52, 199, 89, 0.40);
+}
+
+.account-product-card-pro {
+  border-color: rgba(10, 132, 255, 0.46);
+}
+
+/* Explicit product access badges */
+.account-status-badge.free {
+  border-color: rgba(52, 199, 89, 0.48);
+  background: rgba(52, 199, 89, 0.10);
+  color: #218c42;
+}
+
+.account-status-badge.pro {
+  border-color: rgba(10, 132, 255, 0.50);
+  background: rgba(10, 132, 255, 0.10);
+  color: #007AFF;
+}
+
+.account-access-title {
+  display: block;
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 850;
+  line-height: 1.35;
+}
+
+.account-product-status small {
+  max-width: 300px;
+}
+
+html[data-theme="dark"] .account-status-badge.free {
+  color: #4ade80;
+}
+
+html[data-theme="dark"] .account-status-badge.pro {
+  color: #0A84FF;
+}
+
+/* GNT LAB PRO PRODUCT OUTLINE */
+
+.gnt-pro-product-outline {
+  outline: 2px solid #0A84FF;
+  outline-offset: 0;
+}
+
+html[data-theme="dark"] .gnt-pro-product-outline {
+  outline-color: #0A84FF;
+}

@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 
+import ProductAccessLink from "@/components/ProductAccessLink";
+
 import {
   labProducts,
   labProductGroups,
@@ -92,13 +94,14 @@ export default function ProductsPage() {
 
                 if (product.url && product.status === "available") {
                   return (
-                    <a
+                    <ProductAccessLink
                       key={product.id}
                       href={product.url}
                       className="lab-product-library-card active"
+                      isGNTLAB={product.name === "GNT LAB"}
                     >
                       {content}
-                    </a>
+                    </ProductAccessLink>
                   );
                 }
 
