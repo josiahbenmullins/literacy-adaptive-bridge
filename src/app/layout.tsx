@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 
 import LABAccessProvider from "@/components/LABAccessProvider";
+import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import "./globals.css";
 
@@ -52,6 +53,7 @@ export default function RootLayout({
         <LABAccessProvider>
           <SiteHeader />
           {children}
+          <SiteFooter />
         </LABAccessProvider>
       </body>
     </html>
