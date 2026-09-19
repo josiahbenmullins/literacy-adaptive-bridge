@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "Privacy policy for Literacy Adaptive Bridge and GNT LAB.",
+    "Privacy policy for Literacy Adaptive Bridge products and services.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -14,7 +14,8 @@ export default function PrivacyPolicyPage() {
         <h1>Privacy Policy</h1>
         <p>
           This policy applies to literacyadaptivebridge.com, LAB accounts,
-          GNT LAB on the web, and GNT LAB mobile applications.
+          and every LAB website, application, product, or service that links to
+          it, including GNT LAB.
         </p>
         <p className="legal-effective-date">
           Effective date: September 19, 2026
