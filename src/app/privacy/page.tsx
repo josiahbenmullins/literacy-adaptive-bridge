@@ -128,11 +128,13 @@ export default function PrivacyPolicyPage() {
           <h2>Your privacy rights</h2>
           <p>
             Depending on where you live, you may have the right to request
-            access to, correction of, a copy of, or deletion of your personal
-            information, or to object to or restrict certain processing. Submit
-            a request using the contact address below. We may verify your
+            access to, correction of, deletion of, or a portable copy of your
+            personal information, or to object to or restrict certain processing.
+            Submit a request using the contact address below. We may verify your
             identity before acting on a request. LAB will not discriminate
-            against you for exercising an applicable privacy right.
+            against you for exercising an applicable privacy right. Where
+            applicable, you may also complain to your local data-protection
+            authority.
           </p>
         </section>
 
