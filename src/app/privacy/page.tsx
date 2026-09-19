@@ -98,8 +98,8 @@ export default function PrivacyPolicyPage() {
           </p>
           <p>
             To request account and data deletion, contact{" "}
-            <a href="mailto:privacy@literacyadaptivebridge.com">
-              privacy@literacyadaptivebridge.com
+            <a href="mailto:literacyadaptivebridge@protonmail.com">
+              literacyadaptivebridge@protonmail.com
             </a>
             . We may verify account ownership before deletion.
           </p>
@@ -137,8 +137,8 @@ export default function PrivacyPolicyPage() {
           <h2>Contact</h2>
           <p>
             Privacy questions and requests may be sent to{" "}
-            <a href="mailto:privacy@literacyadaptivebridge.com">
-              privacy@literacyadaptivebridge.com
+            <a href="mailto:literacyadaptivebridge@protonmail.com">
+              literacyadaptivebridge@protonmail.com
             </a>
             .
           </p>
