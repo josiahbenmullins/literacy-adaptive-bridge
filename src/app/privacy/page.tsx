@@ -77,25 +77,39 @@ export default function PrivacyPolicyPage() {
             <li><strong>Vercel:</strong> website hosting and delivery.</li>
           </ul>
           <p>
-            LAB does not sell personal information or use it for third-party
-            targeted advertising.
+            LAB requires these providers to use personal information only to
+            provide their services to LAB and to protect it consistently with
+            this policy and applicable law.
+          </p>
+          <p>
+            We may disclose information when required by law or legal process,
+            or when reasonably necessary to protect the rights, safety, or
+            security of LAB, its users, or others.
           </p>
         </section>
 
         <section>
-          <h2>Cookies and device storage</h2>
+          <h2>Cookies and tracking</h2>
           <p>
             LAB uses essential cookies and device storage to maintain sessions
             and remember account, appearance, and reader settings.
           </p>
+          <p>
+            LAB does not sell personal information, share it for cross-context
+            behavioral advertising, or track activity across unrelated websites
+            or apps for advertising. Because LAB does not perform that tracking,
+            browser Do Not Track signals do not change how LAB operates.
+          </p>
         </section>
 
-        <section>
-          <h2>Retention and deletion</h2>
+        <section id="account-deletion">
+          <h2>Retention and account deletion</h2>
           <p>
             Account and reader data are retained while the account remains
-            active. Limited transaction, security, tax, or legal records may be
-            retained when required.
+            active or as needed to provide LAB services. After a verified
+            deletion request, LAB deletes the account and associated reader
+            data. Limited transaction, security, tax, or legal records may be
+            retained when required or permitted by law.
           </p>
           <p>
             To request account and data deletion, contact{" "}
@@ -111,6 +125,30 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
+          <h2>Your privacy rights</h2>
+          <p>
+            Depending on where you live, you may have the right to request
+            access to, correction of, a copy of, or deletion of your personal
+            information, or to object to or restrict certain processing. Submit
+            a request using the contact address below. We may verify your
+            identity before acting on a request. LAB will not discriminate
+            against you for exercising an applicable privacy right.
+          </p>
+        </section>
+
+        <section>
+          <h2>Legal basis and international processing</h2>
+          <p>
+            Where a legal basis is required, LAB processes information to
+            provide the services and subscriptions you request, comply with
+            legal obligations, and pursue its legitimate interests in operating
+            and securing LAB. Information may be processed in the United States
+            and other countries where the service providers listed above
+            operate, using safeguards required by applicable law.
+          </p>
+        </section>
+
+        <section>
           <h2>Security</h2>
           <p>
             We use reasonable safeguards to protect personal information. No
@@ -121,8 +159,9 @@ export default function PrivacyPolicyPage() {
         <section>
           <h2>Children</h2>
           <p>
-            LAB is not directed to children under 13. Children under 13 should
-            use LAB only with a parent or legal guardian.
+            LAB is not directed to children under 13, and we do not knowingly
+            collect personal information from children under 13. If we learn
+            that we have collected such information, we will delete it.
           </p>
         </section>
 
@@ -130,7 +169,7 @@ export default function PrivacyPolicyPage() {
           <h2>Changes</h2>
           <p>
             Policy changes will be posted on this page with a revised effective
-            date.
+            date. Additional notice will be provided when required by law.
           </p>
         </section>
 
