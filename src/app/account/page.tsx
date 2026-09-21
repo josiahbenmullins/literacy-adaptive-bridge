@@ -3,13 +3,18 @@
 import { FormEvent, useMemo, useState } from 'react'
 
 import { useLABAccess } from '@/components/LABAccessProvider'
-import { createClient } from '@/lib/supabase/client'
+import { LAB_PRODUCTS } from '@/lib/lab/products'
+import {
+  createClient,
+  requestPasswordReset,
+} from '@/lib/supabase/client'
 
 export default function AccountPage() {
   const supabase = useMemo(() => createClient(), [])
 
   const {
     user,
+    productAccess,
     hasGNTAccess,
     isLoading,
     refreshAccess,
@@ -20,10 +25,11 @@ export default function AccountPage() {
   const [message, setMessage] = useState('')
   const [error, setError] = useState('')
   const [actionLoading, setActionLoading] = useState(false)
+  const [passwordResetLoading, setPasswordResetLoading] =
+    useState(false)
 
   async function handleSignIn(event: FormEvent) {
     event.preventDefault()
-
     setError('')
     setMessage('')
 
@@ -34,13 +40,14 @@ export default function AccountPage() {
 
     setActionLoading(true)
 
-    const { error } = await supabase.auth.signInWithPassword({
-      email,
-      password,
-    })
+    const { error: signInError } =
+      await supabase.auth.signInWithPassword({
+        email,
+        password,
+      })
 
-    if (error) {
-      setError(error.message)
+    if (signInError) {
+      setError(signInError.message)
       setActionLoading(false)
       return
     }
@@ -66,16 +73,18 @@ export default function AccountPage() {
 
     setActionLoading(true)
 
-    const { data, error } = await supabase.auth.signUp({
-      email,
-      password,
-      options: {
-        emailRedirectTo: `${window.location.origin}/account`,
-      },
-    })
+    const { data, error: signUpError } =
+      await supabase.auth.signUp({
+        email,
+        password,
+        options: {
+          emailRedirectTo:
+            `${window.location.origin}/account/`,
+        },
+      })
 
-    if (error) {
-      setError(error.message)
+    if (signUpError) {
+      setError(signUpError.message)
       setActionLoading(false)
       return
     }
@@ -94,15 +103,46 @@ export default function AccountPage() {
     setActionLoading(false)
   }
 
+  async function handleForgotPassword() {
+    setError('')
+    setMessage('')
+
+    const normalizedEmail = email.trim().toLowerCase()
+
+    if (!normalizedEmail) {
+      setError('Enter your email address first.')
+      return
+    }
+
+    setPasswordResetLoading(true)
+
+    const { error: resetError } = await requestPasswordReset(
+      normalizedEmail,
+      `${window.location.origin}/account/reset-password/`
+    )
+
+    if (resetError) {
+      setError(resetError.message)
+      setPasswordResetLoading(false)
+      return
+    }
+
+    setMessage(
+      'If a LAB account exists for that email address, a password-reset link has been sent.'
+    )
+    setPasswordResetLoading(false)
+  }
+
   async function handleSignOut() {
     setError('')
     setMessage('')
     setActionLoading(true)
 
-    const { error } = await supabase.auth.signOut()
+    const { error: signOutError } =
+      await supabase.auth.signOut()
 
-    if (error) {
-      setError(error.message)
+    if (signOutError) {
+      setError(signOutError.message)
       setActionLoading(false)
       return
     }
@@ -145,7 +185,6 @@ export default function AccountPage() {
         </section>
       ) : user ? (
         <div className="account-dashboard">
-
           <section
             className={`account-card account-identity-card ${
               hasGNTAccess
@@ -155,10 +194,7 @@ export default function AccountPage() {
           >
             <div className="account-card-heading">
               <div className="account-avatar">
-                <svg
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
                   <circle cx="12" cy="8" r="4" />
                   <path d="M4.5 21c.6-4.4 3.1-7 7.5-7s6.9 2.6 7.5 7" />
                 </svg>
@@ -173,9 +209,7 @@ export default function AccountPage() {
               </div>
 
               <div>
-                <div className="eyebrow">
-                  ACCOUNT STATUS
-                </div>
+                <div className="eyebrow">ACCOUNT STATUS</div>
                 <h2>Signed in</h2>
               </div>
             </div>
@@ -198,83 +232,113 @@ export default function AccountPage() {
           <section className="account-products">
             <div className="section-heading-row">
               <div>
-                <div className="eyebrow">
-                  YOUR PRODUCTS
-                </div>
+                <div className="eyebrow">YOUR PRODUCTS</div>
                 <h2>LAB Access</h2>
               </div>
             </div>
 
-            <article
-              className={`account-product-card ${
-                hasGNTAccess
-                  ? 'account-product-card-pro'
-                  : 'account-product-card-free'
-              }`}
-            >
-              <div className="account-product-main">
-                <div className="account-product-mark">
-                  <img
-                    src="/gnt-lab-symbol.png"
-                    alt=""
-                  />
-                </div>
+            {LAB_PRODUCTS.map((product) => {
+              const access = productAccess[product.slug]
+              const isPlanned =
+                product.state === 'planned' &&
+                !access.hasAccess
 
-                <div>
-                  <h3>GNT LAB</h3>
+              return (
+                <article
+                  key={product.slug}
+                  className={`account-product-card ${
+                    access.hasAccess
+                      ? 'account-product-card-pro'
+                      : isPlanned
+                        ? 'account-product-card-planned'
+                        : 'account-product-card-free'
+                  }`}
+                >
+                  <div className="account-product-main">
+                    {product.slug === 'gnt-lab' ? (
+                      <div className="account-product-mark">
+                        <img
+                          src="/gnt-lab-symbol.png"
+                          alt=""
+                        />
+                      </div>
+                    ) : (
+                      <div className="account-product-code">
+                        {product.code}
+                      </div>
+                    )}
 
-                  <p>
-                    Greek New Testament adaptive reader
-                  </p>
-                </div>
-              </div>
+                    <div>
+                      <h3>{product.name}</h3>
+                      <p>{product.description}</p>
+                    </div>
+                  </div>
 
-              <div className="account-product-status">
-                {hasGNTAccess ? (
-                  <>
-                    <span className="account-status-badge pro">
-                      <span aria-hidden="true">✓</span>
-                      GNT LAB Pro
-                    </span>
+                  <div className="account-product-status">
+                    {access.hasAccess ? (
+                      <>
+                        <span className="account-status-badge pro">
+                          <span aria-hidden="true">✓</span>
+                          Pro Access Active
+                        </span>
 
-                    <strong className="account-access-title">
-                      You have GNT LAB Pro access
-                    </strong>
+                        <strong className="account-access-title">
+                          You have {product.name} Pro access
+                        </strong>
 
-                    <small>
-                      Full Greek New Testament access — all 27 books
-                      and all 260 chapters.
-                    </small>
-                  </>
-                ) : (
-                  <>
-                    <span className="account-status-badge free">
-                      <span aria-hidden="true">✓</span>
-                      GNT LAB Free
-                    </span>
+                        <small>
+                          {access.source === 'executive'
+                            ? 'Lifetime access'
+                            : 'Full product access'}
+                        </small>
+                      </>
+                    ) : isPlanned ? (
+                      <>
+                        <span className="account-status-badge">
+                          Planned
+                        </span>
 
-                    <strong className="account-access-title">
-                      You have GNT LAB Free access
-                    </strong>
+                        <small>
+                          Subscription options will appear here
+                          when {product.name} launches.
+                        </small>
+                      </>
+                    ) : (
+                      <>
+                        <span className="account-status-badge free">
+                          <span aria-hidden="true">✓</span>
+                          Free Access
+                        </span>
 
-                    <small>
-                      Includes the complete Gospel of John plus
-                      chapters 1–3 of Matthew, Mark, Luke, Acts,
-                      and Romans.
-                    </small>
-                  </>
-                )}
-              </div>
-            </article>
+                        <strong className="account-access-title">
+                          You have {product.name} Free access
+                        </strong>
+
+                        <small>
+                          Upgrade options are available through
+                          the product site.
+                        </small>
+                      </>
+                    )}
+                  </div>
+                </article>
+              )
+            })}
           </section>
 
+          <div className="account-manage-link-row">
+            <a
+              href="/account/manage/"
+              className="account-primary-button account-inline-link"
+            >
+              Manage Account
+            </a>
+          </div>
         </div>
       ) : (
         <section className="account-card account-auth-card">
           <div className="account-auth-heading">
-            <div className="eyebrow">
-              LAB ACCOUNT
-            </div>
+            <div className="eyebrow">LAB ACCOUNT</div>
 
             <h2>Sign in</h2>
 
@@ -335,6 +399,17 @@ export default function AccountPage() {
                 className="account-secondary-button"
               >
                 Create Account
+              </button>
+
+              <button
+                type="button"
+                onClick={handleForgotPassword}
+                disabled={passwordResetLoading}
+                className="account-secondary-button"
+              >
+                {passwordResetLoading
+                  ? 'Sending Reset Link…'
+                  : 'Forgot Password?'}
               </button>
             </div>
           </form>
