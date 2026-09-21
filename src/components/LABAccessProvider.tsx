@@ -12,12 +12,18 @@ import type { ReactNode } from 'react'
 import type { User } from '@supabase/supabase-js'
 
 import { createClient } from '@/lib/supabase/client'
-import { hasProductAccess } from '@/lib/lab/entitlements'
+import {
+  createEmptyProductAccessMap,
+  getAllProductAccess,
+  type LABProductAccessMap,
+} from '@/lib/lab/entitlements'
 
 type LABAccessContextValue = {
   user: User | null
   isLoading: boolean
+  productAccess: LABProductAccessMap
   hasGNTAccess: boolean
+  gntAccessSource: string | null
   refreshAccess: () => Promise<void>
 }
 
@@ -31,7 +37,10 @@ export default function LABAccessProvider({
   const supabase = useMemo(() => createClient(), [])
 
   const [user, setUser] = useState<User | null>(null)
-  const [hasGNTAccess, setHasGNTAccess] = useState(false)
+  const [productAccess, setProductAccess] =
+    useState<LABProductAccessMap>(
+      createEmptyProductAccessMap()
+    )
   const [isLoading, setIsLoading] = useState(true)
 
   const loadAccessForUser = useCallback(
@@ -39,22 +48,21 @@ export default function LABAccessProvider({
       setUser(currentUser)
 
       if (!currentUser) {
-        setHasGNTAccess(false)
+        setProductAccess(createEmptyProductAccessMap())
         setIsLoading(false)
         return
       }
 
       try {
-        const allowed = await hasProductAccess(
+        const access = await getAllProductAccess(
           supabase,
-          currentUser.id,
-          'gnt-lab'
+          currentUser.id
         )
 
-        setHasGNTAccess(allowed)
+        setProductAccess(access)
       } catch (error) {
         console.error('Unable to load LAB entitlements:', error)
-        setHasGNTAccess(false)
+        setProductAccess(createEmptyProductAccessMap())
       } finally {
         setIsLoading(false)
       }
@@ -87,12 +95,16 @@ export default function LABAccessProvider({
     }
   }, [supabase, refreshAccess, loadAccessForUser])
 
+  const gntAccess = productAccess['gnt-lab']
+
   return (
     <LABAccessContext.Provider
       value={{
         user,
         isLoading,
-        hasGNTAccess,
+        productAccess,
+        hasGNTAccess: gntAccess.hasAccess,
+        gntAccessSource: gntAccess.source,
         refreshAccess,
       }}
     >

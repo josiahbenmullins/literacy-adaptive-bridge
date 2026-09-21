@@ -3547,3 +3547,135 @@ html[data-theme="dark"] .legal-content a {
     flex-direction: column;
   }
 }
+
+
+/* Shared LAB account management */
+
+.account-inline-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  text-decoration: none;
+}
+
+.account-page-heading .account-inline-link {
+  margin-top: 18px;
+}
+
+.account-manage-link-row {
+  display: flex;
+  justify-content: center;
+}
+
+.account-product-code {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  flex: 0 0 52px;
+  border-radius: 50%;
+  background: #3f3a35;
+  color: white;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.account-product-card-planned {
+  opacity: 0.78;
+}
+
+.account-product-actions {
+  display: grid;
+  justify-items: end;
+  gap: 10px;
+  min-width: 180px;
+}
+
+.account-management-product {
+  align-items: center;
+}
+
+.account-security-card {
+  margin-top: 10px;
+}
+
+.account-danger-button {
+  min-height: 42px;
+  padding: 10px 16px;
+  border: 1px solid #991b1b;
+  border-radius: 10px;
+  background: transparent;
+  color: #991b1b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.account-danger-button:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.account-danger-panel {
+  padding: 16px;
+  border: 1px solid rgba(153, 27, 27, 0.25);
+  border-radius: 12px;
+  background: rgba(153, 27, 27, 0.035);
+}
+
+.account-danger-warning {
+  display: grid;
+  gap: 5px;
+  color: #7f1d1d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.account-danger-warning strong,
+.account-danger-warning span {
+  display: block;
+}
+
+.account-field input {
+  font-size: 1rem;
+}
+
+html[data-theme="dark"] .account-product-code {
+  background: #57534e;
+}
+
+html[data-theme="dark"] .account-danger-button {
+  border-color: #f87171;
+  color: #fca5a5;
+}
+
+html[data-theme="dark"] .account-danger-panel {
+  border-color: rgba(248, 113, 113, 0.3);
+  background: rgba(127, 29, 29, 0.12);
+}
+
+html[data-theme="dark"] .account-danger-warning {
+  color: #fca5a5;
+}
+
+@media (max-width: 640px) {
+  .account-product-actions {
+    justify-items: start;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .account-manage-link-row {
+    display: block;
+  }
+
+  .account-inline-link,
+  .account-danger-button {
+    width: 100%;
+  }
+}

@@ -1,4 +1,27 @@
 import { createBrowserClient } from '@supabase/ssr'
+import { createClient as createSupabaseClient } from '@supabase/supabase-js'
+
+export function requestPasswordReset(
+  email: string,
+  redirectTo: string
+) {
+  const recoveryClient = createSupabaseClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY!,
+    {
+      auth: {
+        flowType: 'implicit',
+        persistSession: false,
+        autoRefreshToken: false,
+        detectSessionInUrl: false,
+      },
+    }
+  )
+
+  return recoveryClient.auth.resetPasswordForEmail(email, {
+    redirectTo,
+  })
+}
 
 function getLABCookieOptions() {
   const isBrowser = typeof window !== 'undefined'
